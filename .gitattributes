@@ -1,0 +1,3 @@
+# Reduce hard merge conflicts on notes synced across devices.
+# Union keeps both sides rather than stopping on conflict.
+*.md merge=union

@@ -1,0 +1,9 @@
+# Obsidian per-device files that cause sync conflicts
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-git/data.json
+conflict-files-obsidian-git.md
+
+# OS noise
+.DS_Store
+Thumbs.db
