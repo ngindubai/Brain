@@ -31,11 +31,11 @@ Businesses 80% staffed by agents at no more than a tenth of human cost. Everythi
 | CRM systems | maintenance |
 | Rest of comparison network (money, insure, companyformation, legalconsultants) | active |
 
-## P3 - Parked or someday
+## P3 - Low priority
 
 | Item | Status |
 |---|---|
-| NORTHLANDS | parked |
+| NORTHLANDS | active (spare-time hobby) |
 | EquityNgin | parked |
 | Ventures (energy claims, GPU compute, KDP, property opportunities) | parked |
 | Trading / Trader Capture Kit | parked |
