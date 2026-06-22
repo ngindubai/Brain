@@ -2,7 +2,7 @@
 title: Research
 area: research
 tags: [research, ideas, incubator, moc]
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 # Research
@@ -24,8 +24,6 @@ raw  ->  exploring  ->  ready to promote  ->  project
 
 ## Topics
 
-None yet. Say "new idea: ..." and I will add the first one.
-
 | Topic | Status | Note |
 |---|---|---|
-| | | |
+| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent OS -- $27/month, persistent memory, self-improving skills, multi-agent team on a $6 VPS. High relevance to agent-org. |
