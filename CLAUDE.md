@@ -58,20 +58,21 @@ Clear vision and systems thinking. Ship fast by pairing strict house-style with 
 
 ## Current projects
 
-Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/plan.md`. New ideas being bounced around live in [[research/_index]] until they become projects.
+Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/<name>.md`. New ideas being bounced around live in [[research/research]] until they become projects.
 
 ## How to operate the brain
 
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
 - **Filing rule.** A new idea to bounce around goes in `research/`, one note per idea. Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
-- **Idea lifecycle.** A loose idea lives in `research/` as one note, then graduates to `projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[research/_index]].
-- **Project status.** Each project's tracker is `projects/<name>/plan.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
+- **Idea lifecycle.** A loose idea lives in `research/` as one note, then graduates to `projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[research/research]].
+- **Naming for the graph.** Name the map note of a folder after its topic, not `index`. Area notes are `areas/<area>/<area>.md`, project trackers are `projects/<name>/<name>.md`. This keeps the graph readable.
+- **Project status.** Each project's tracker is `projects/<name>/<name>.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
-- **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/index.md`, then the relevant area `_index.md`, then individual notes. Do not read the whole vault for a simple question.
+- **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/home.md`, then the relevant area note, then individual notes. Do not read the whole vault for a simple question.
 - **Keep hot.md current.** When you file something significant, add a line to `00-dashboard/hot.md` and trim it to about 500 words.
 - **Naming.** Lower-case, hyphenated, dated where it matters: `YYYY-MM-DD-topic.md`. No spaces.
 - **Frontmatter.** Every note starts with title, area, tags, updated.
-- **Linking.** Use `[[wikilinks]]`. Each area `_index.md` is the map for that domain. Link new notes back to their area index.
+- **Linking.** Use `[[wikilinks]]`. Each area note is the map for that domain. Link new notes back to their area note.
 - **One source of truth.** This repo is the source. Keep it text-only so mobile git stays fast.
 - **Repos live elsewhere.** Each area links to its live GitHub repos. The brain points at the code, it does not hold it.
 
@@ -100,10 +101,10 @@ Reusable workflows in `skills/`:
 
 | Area | What it is | Repos |
 |---|---|---|
-| [[areas/agent-org/_index]] | The humanless-company engine | orwell-marketing, pet-transport (souls) |
-| [[areas/seo-portfolio/_index]] | Programmatic SEO lead-gen | pet-transport, funeral-repatriation, closeprotectionhure-com, global-bus-hire, pest-control-usa |
-| [[areas/comparison-network/_index]] | UAE comparison sites | mortgagecompare-ae, moneycompare-ae, insurecompare-ae, companyformation.ae, legalconsultants.ae |
-| [[areas/crm-systems/_index]] | CRM back-ends | mc-crm, logistics-crm, global-bus-rental-crm, firswood-crm |
-| [[areas/products/_index]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
-| [[areas/ventures/_index]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
-| [[areas/trading/_index]] | Options and futures | Trader Capture Kit |
+| [[areas/agent-org/agent-org]] | The humanless-company engine | orwell-marketing, pet-transport (souls) |
+| [[areas/seo-portfolio/seo-portfolio]] | Programmatic SEO lead-gen | pet-transport, funeral-repatriation, closeprotectionhure-com, global-bus-hire, pest-control-usa |
+| [[areas/comparison-network/comparison-network]] | UAE comparison sites | mortgagecompare-ae, moneycompare-ae, insurecompare-ae, companyformation.ae, legalconsultants.ae |
+| [[areas/crm-systems/crm-systems]] | CRM back-ends | mc-crm, logistics-crm, global-bus-rental-crm, firswood-crm |
+| [[areas/products/products]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
+| [[areas/ventures/ventures]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
+| [[areas/trading/trading]] | Options and futures | Trader Capture Kit |
