@@ -16,4 +16,4 @@ Recent context. Read this first, before index.md, for fast grounding. Keep it sh
 
 ## Last filed
 
-- (filing log lands here, newest first)
+- 2026-06-22: Hermes compare-site reporting tracker, task plus plan plus progress, frontier is B8 wire Hermes and B9 reports. See [[projects/hermes-compare-reporting/plan]].
