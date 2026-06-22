@@ -8,7 +8,7 @@ updated: 2026-06-22
 
 # Humanless company design
 
-From "The Humanless Company" build plan, 19 June. The design behind running a whole company with no humans in the seats. Companion to [[areas/agent-org/agent-behaviour-design]] ("The Glass Office").
+From "The Humanless Company" build plan, 19 June. The design behind running a whole company with no humans in the seats. Companion to [[areas/agent-org/agent-behaviour-design]] ("The Glass Office"). Part of [[areas/agent-org/agent-org]].
 
 ## The core idea: the schema is the company
 

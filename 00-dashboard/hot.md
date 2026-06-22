@@ -7,7 +7,7 @@ updated: 2026-06-22
 
 # Hot
 
-Recent context. Read this first, before index.md, for fast grounding. Keep it short, roughly 500 words. Newest and most active things only. Older detail lives in the area indexes.
+Recent context. Read this first, before home.md, for fast grounding. Keep it short, roughly 500 words. Newest and most active things only. Older detail lives in the area indexes.
 
 ## Now
 
@@ -17,5 +17,5 @@ Recent context. Read this first, before index.md, for fast grounding. Keep it sh
 
 ## Last filed
 
-- 2026-06-22: new research area [[areas/visa-service/_index]] on the global visa service idea. Verdict: late and crowded. The SEO route-page model and the one-click document vault are both already productised by funded incumbents (Atlys, iVisa, SimpleVisa), and one-click processing hits a government-portal automation wall. Only the affiliate lead-gen version fits the humanless model.
-- 2026-06-22: project trackers populated from recent Claude Code work (Hermes reporting, SEO indexing, Orwell Corp office, NORTHLANDS) plus the daily-summary ritual. See [[00-dashboard/projects]].
+- 2026-06-22: renamed all index and tracker notes to topic names so the graph reads clearly.
+- 2026-06-22: ingested the Hermes and humanless-company design docs into [[areas/agent-org/agent-org]].

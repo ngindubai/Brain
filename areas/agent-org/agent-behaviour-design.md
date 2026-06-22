@@ -8,14 +8,14 @@ updated: 2026-06-22
 
 # Agent behaviour design
 
-From "The Glass Office", the companion to [[areas/agent-org/humanless-company-design]]. How the agents behave, coordinate, and are watched. Feeds the visual office in [[projects/orwell-corp-office/plan]].
+From "The Glass Office", the companion to [[areas/agent-org/humanless-company-design]]. How the agents behave, coordinate, and are watched. Feeds the visual office in [[projects/orwell-corp-office/orwell-corp-office]]. Part of [[areas/agent-org/agent-org]].
 
 ## The central behaviour lesson
 
 Left to free-form chat, agents drift, form odd social dynamics, and get stuck. This is proven by the agent-society experiments, not theoretical. So behaviour is constrained by design:
 
 - **Coordinate through the blackboard, not conversation.** Agents read and write shared state with a status field. No agent messages another.
-- **Recommendation-only by default for the marketing agents,** enforced by withholding the publish and send tools, not by instruction. See [[projects/marketing-department/plan]].
+- **Recommendation-only by default for the marketing agents,** enforced by withholding the publish and send tools, not by instruction. See [[projects/marketing-department/marketing-department]].
 - **Quality control as a watchdog chain.** A three-tier watchdog and circuit-breaker layer catches bad output before it spreads (the gastown pattern).
 
 ## Observability: the glass office
