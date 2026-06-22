@@ -59,12 +59,27 @@ Active now: SEO indexing fix (site by site), Orwell Corp, KlientFlo Phase B, Her
 ## How to operate the brain
 
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
-- **Filing rule.** Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`.
+- **Filing rule.** Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
+- **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
+- **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/index.md`, then the relevant area `_index.md`, then individual notes. Do not read the whole vault for a simple question.
+- **Keep hot.md current.** When you file something significant, add a line to `00-dashboard/hot.md` and trim it to about 500 words.
 - **Naming.** Lower-case, hyphenated, dated where it matters: `YYYY-MM-DD-topic.md`. No spaces.
 - **Frontmatter.** Every note starts with title, area, tags, updated.
 - **Linking.** Use `[[wikilinks]]`. Each area `_index.md` is the map for that domain. Link new notes back to their area index.
 - **One source of truth.** This repo is the source. Keep it text-only so mobile git stays fast.
 - **Repos live elsewhere.** Each area links to its live GitHub repos. The brain points at the code, it does not hold it.
+
+## Skills
+
+Reusable workflows in `skills/`:
+
+- `file-inbox` - sort a dump into the right place
+- `query` - answer a question from the vault
+- `lint` - vault health check
+- `save-conversation` - file the current chat as a structured note
+- `weekly-review` - what moved, what stalled, open loops
+- `grading-review` - monthly re-grade of priorities
+- `new-project` - scaffold a new project
 
 ## House style (law)
 
