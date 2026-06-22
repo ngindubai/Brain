@@ -11,6 +11,7 @@ Start here. This is the map of the whole brain.
 
 ## Quick views
 
+- [[00-dashboard/tasks|Open tasks]] - everything open, by priority
 - [[00-dashboard/hot|Hot]] - recent context
 - [[00-dashboard/projects|Projects board]] - every active project
 - [[00-dashboard/priorities|Priorities]] - graded focus board
@@ -25,6 +26,7 @@ Start here. This is the map of the whole brain.
 - [[areas/products/products|Products]] - software and the game server
 - [[areas/ventures/ventures|Ventures]] - research bets already worth tracking
 - [[areas/trading/trading|Trading]] - options and futures
+- [[areas/visa-service/_index|Visa service]] - researched, affiliate model only
 
 ## Research
 
