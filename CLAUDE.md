@@ -63,7 +63,7 @@ Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<n
 ## How to operate the brain
 
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
-- **Filing rule.** A new idea to bounce around goes in `research/`, one note per idea. Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
+- **Filing rule.** A new idea to bounce around goes in `research/`, one note per idea. Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `github-database/`.
 - **Idea lifecycle.** A loose idea lives in `research/` as one note, then graduates to `projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[research/research]].
 - **Naming for the graph.** Name the map note of a folder after its topic, not `index`. Area notes are `areas/<area>/<area>.md`, project trackers are `projects/<name>/<name>.md`. This keeps the graph readable.
 - **Project status.** Each project's tracker is `projects/<name>/<name>.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
@@ -80,19 +80,29 @@ Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<n
 
 When Gareth drops one or more URLs into chat, this is the protocol:
 
-1. **Fetch each URL.** Read the full page content.
+1. **Fetch each URL.** Read the full page content. If a URL will not fetch (e.g. X/Twitter blocks it), web-search for the content and **flag clearly if the source cannot be confirmed**. Do not build a confident note on an unverified source. If a tweet/status ID resolves to content that looks unrelated to what Gareth described, say so and ask, rather than filing it as fact.
 2. **Create a research note.** File it at `research/<short-name>.md` using the standard research template. The note must include:
    - A plain-English summary of what the link is and why it matters.
    - Key takeaways (bullet list, max 7 items).
    - Source URL and date captured.
-   - `status: raw`
+   - `status: raw` (or `exploring` once developed).
 3. **Cross-link to areas and projects.** Scan the vault map (areas table in this file, `00-dashboard/projects.md`, `research/research.md`) and identify every area or project the content is relevant to. Add `[[wikilinks]]` to those in the note's frontmatter under `related`. Also add a backlink line in the relevant area or project note pointing at the new research note.
-4. **Update research.md.** Add a row to the Topics table in `research/research.md`.
-5. **Tell me what was filed and what it was linked to.** One short message, no fluff.
+4. **File any git repos.** If the link is, or references, third-party git repos worth keeping, add them to `github-database/` (see below).
+5. **Update the indexes.** Add a row to the Topics table in `research/research.md`, and to the relevant `github-database/` files if repos were added.
+6. **Tell me what was filed and what it was linked to.** One short message, no fluff.
 
 If multiple URLs arrive at once, batch them: one note per URL, one commit per batch.
 
 Do not ask before fetching. Do not ask where to file. Decide and do it.
+
+## GitHub database
+
+`github-database/` is the external git library: every third-party repo we pull skills, tools, or reference code from, sorted by category. It is **not** Orwell's own code (that lives in the live repos linked from each area in the map below). Map note: [[github-database/github-database]].
+
+- **Structure.** One file per category, named after the category. A master list lives in the map note, broken down by category. Each repo is a row: name/link, what it is, what we'd pull, which Orwell area it feeds, and status (`using`, `evaluating`, `shelf`).
+- **Filing a git link.** When I drop a repo, pick the category, add a row to that category file and to the master list in the map note, set status, and note any area it feeds. New category if none fits: create the file and add it to the master list. One commit per batch, tell me after.
+- **Current categories.** Agent frameworks, MCP servers, Skill libraries, Web design, Automation tools.
+- **Internal vs external.** Our own reusable workflows stay in `skills/`. `github-database/` is only for outside repos.
 
 ## Skills
 
@@ -126,3 +136,10 @@ Reusable workflows in `skills/`:
 | [[areas/products/products]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
 | [[areas/ventures/ventures]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
 | [[areas/trading/trading]] | Options and futures | Trader Capture Kit |
+
+## The shelves (non-area sections)
+
+| Section | What it is | Map note |
+|---|---|---|
+| Research | The idea shelf, pre-project | [[research/research]] |
+| GitHub database | External third-party repos we pull from | [[github-database/github-database]] |
