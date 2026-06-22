@@ -14,6 +14,7 @@ Every active project at a glance. Kept current by the daily ritual. Open a proje
 | Hermes compare-site reporting | P1 | Frontier: wire Hermes (B8), reports (B9) | Confirm warehouse deployed, run B8 | [[projects/hermes-compare-reporting/plan]] |
 | SEO indexing fix | P1 | Active: site by site | RepatriationFuneral canonical and duplication repair | [[projects/seo-indexing-fix/plan]] |
 | Orwell Corp 3D office | P2 | Active: viewer polish, asset swap | Restore Blender, retry Poly Pizza one asset at a time | [[projects/orwell-corp-office/plan]] |
+| Brain ingestion | P2 | Active: plan set, awaiting files | Ingest Batch 1 (SEO portfolio) | [[projects/brain-ingestion/plan]] |
 | NORTHLANDS | P3 (hobby) | Active: deploying fixes | FTP-upload flattened nl_deathdrop | [[projects/northlands/plan]] |
 
 ## How this stays current
