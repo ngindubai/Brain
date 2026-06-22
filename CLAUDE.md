@@ -48,18 +48,23 @@ In priority order:
 - Keep me focused. I start more than I close.
 - Run the monthly grading review so priorities stay honest. See [[reference/priority-system]].
 
+## Daily ritual
+
+At the end of each day, when I ask, summarise the day's work and plan tomorrow. Run the `daily-summary` skill. Sources: today's claude.ai chats, the day's commits across the `ngindubai` repos (the record of what Claude Code shipped), and anything I paste. Update each project tracker and the projects board, write the daily note with done, decisions and open loops, and list tomorrow's top actions ranked by priority. Never invent progress: if it is not in a chat, a commit, or pasted, say so. This ritual tracks and plans only, it does not do the project work.
+
 ## Strengths
 
 Clear vision and systems thinking. Ship fast by pairing strict house-style with AI tools. Strong SEO and business-model instinct. Push hard across many fronts at once.
 
 ## Current projects
 
-Active now: SEO indexing fix (site by site), Orwell Corp, KlientFlo Phase B, Hermes migration, comparison network content, and NORTHLANDS as a spare-time hobby. Full graded board: [[00-dashboard/priorities]].
+Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/plan.md`. Active now: SEO indexing fix, Orwell Corp 3D office, KlientFlo Phase B, Hermes compare-site reporting, comparison network content, and NORTHLANDS as a spare-time hobby.
 
 ## How to operate the brain
 
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
 - **Filing rule.** Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
+- **Project status.** Each project's tracker is `projects/<name>/plan.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
 - **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/index.md`, then the relevant area `_index.md`, then individual notes. Do not read the whole vault for a simple question.
 - **Keep hot.md current.** When you file something significant, add a line to `00-dashboard/hot.md` and trim it to about 500 words.
@@ -77,6 +82,7 @@ Reusable workflows in `skills/`:
 - `query` - answer a question from the vault
 - `lint` - vault health check
 - `save-conversation` - file the current chat as a structured note
+- `daily-summary` - end-of-day summary and tomorrow's plan
 - `weekly-review` - what moved, what stalled, open loops
 - `grading-review` - monthly re-grade of priorities
 - `new-project` - scaffold a new project
