@@ -13,13 +13,14 @@ Run this when I dump information at you in chat, or when `_inbox/` has loose not
 
 1. Read the dump, or every file in `_inbox/`.
 2. For each item, decide the destination:
+   - a new idea to bounce around to `research/` as its own note, not a project yet
    - ongoing domain to the right `areas/` folder
    - time-boxed work with one goal to a folder in `projects/`
    - durable knowledge to `reference/`
    - cannot place confidently: leave in `_inbox/` with a `#needs-filing` tag and flag it to me
-3. Name the file `YYYY-MM-DD-topic.md`, lower-case, hyphenated.
+3. Name the file `YYYY-MM-DD-topic.md`, lower-case, hyphenated (research notes use `research/<short-name>.md`).
 4. Add frontmatter: title, area, tags, updated.
-5. Add `[[wikilinks]]` to the relevant area `_index.md` and any related notes.
+5. Add `[[wikilinks]]` to the relevant area or index, and any related notes.
 6. Check for duplicates. If it extends an existing note, append rather than create a new one.
 7. Write a one-line entry into today's daily note in `00-dashboard/daily/`.
 8. Commit with a clear message.
@@ -27,5 +28,6 @@ Run this when I dump information at you in chat, or when `_inbox/` has loose not
 ## Rules
 
 - Do not ask me which folder. Decide. Only ask if genuinely ambiguous.
+- A loose idea is research, not a project. Promote it to a project only when I commit to it.
 - Apply house style.
 - Keep it text-only.

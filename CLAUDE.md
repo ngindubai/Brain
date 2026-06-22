@@ -58,12 +58,13 @@ Clear vision and systems thinking. Ship fast by pairing strict house-style with 
 
 ## Current projects
 
-Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/plan.md`. Active now: SEO indexing fix, Orwell Corp 3D office, KlientFlo Phase B, Hermes compare-site reporting, comparison network content, and NORTHLANDS as a spare-time hobby.
+Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/plan.md`. New ideas being bounced around live in [[research/_index]] until they become projects.
 
 ## How to operate the brain
 
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
-- **Filing rule.** Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
+- **Filing rule.** A new idea to bounce around goes in `research/`, one note per idea. Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`.
+- **Idea lifecycle.** A loose idea lives in `research/` as one note, then graduates to `projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[research/_index]].
 - **Project status.** Each project's tracker is `projects/<name>/plan.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
 - **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/index.md`, then the relevant area `_index.md`, then individual notes. Do not read the whole vault for a simple question.
@@ -85,7 +86,7 @@ Reusable workflows in `skills/`:
 - `daily-summary` - end-of-day summary and tomorrow's plan
 - `weekly-review` - what moved, what stalled, open loops
 - `grading-review` - monthly re-grade of priorities
-- `new-project` - scaffold a new project
+- `new-project` - scaffold a new project (including promoting one from research)
 
 ## House style (law)
 
@@ -99,6 +100,7 @@ Reusable workflows in `skills/`:
 
 | Area | What it is | Repos |
 |---|---|---|
+| [[areas/agent-org/_index]] | The humanless-company engine | orwell-marketing, pet-transport (souls) |
 | [[areas/seo-portfolio/_index]] | Programmatic SEO lead-gen | pet-transport, funeral-repatriation, closeprotectionhure-com, global-bus-hire, pest-control-usa |
 | [[areas/comparison-network/_index]] | UAE comparison sites | mortgagecompare-ae, moneycompare-ae, insurecompare-ae, companyformation.ae, legalconsultants.ae |
 | [[areas/crm-systems/_index]] | CRM back-ends | mc-crm, logistics-crm, global-bus-rental-crm, firswood-crm |
