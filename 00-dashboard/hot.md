@@ -17,5 +17,6 @@ Recent context. Read this first, before home.md, for fast grounding. Keep it sho
 
 ## Last filed
 
+- 2026-06-22: logged the day's Claude Code shipping (roughly 275 SEO pages + 11 comparison articles) in [[00-dashboard/daily/2026-06-22]]. Flag: indexing fix still pending while new content ships.
 - 2026-06-22: renamed all index and tracker notes to topic names so the graph reads clearly.
 - 2026-06-22: ingested the Hermes and humanless-company design docs into [[areas/agent-org/agent-org]].

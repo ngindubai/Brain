@@ -27,6 +27,13 @@ Active project: [[projects/seo-indexing-fix/seo-indexing-fix]].
 - GA4 and GSC data piped through Windsor.ai. Semrush for keyword and competitor work.
 - `.github/workflows/` paths return 403 on the connector and must be edited manually.
 
+## Build state (latest)
+
+- PestRemovalUSA: 1,553 city pages (75 T1 + 300 T2 + 1,178 T3) as of 2026-06-22. Template spread balanced.
+- RepatriationFuneral: 2,023 route pairs as of 2026-06-22.
+- See the daily log for run-by-run detail: [[00-dashboard/daily/2026-06-22]].
+
 ## Open loops
 
 - Finish the GSC indexing fix, site by site.
+- Order tension: new content is shipping on RepatriationFuneral while its canonical repair is still pending. Fix indexing first, or accept new pages will not index until then. See [[00-dashboard/daily/2026-06-22]].

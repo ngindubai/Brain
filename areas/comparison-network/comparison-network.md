@@ -21,6 +21,10 @@ Active projects: [[projects/hermes-compare-reporting/hermes-compare-reporting]],
 | CompanyFormation.ae | `ngindubai/companyformation.ae` | Public repo. |
 | LegalConsultants.ae | `ngindubai/legalconsultants.ae` | Public repo. |
 
+## Content state (latest)
+
+- Knowledge-hub article runs continuing daily via Routines. 2026-06-22: MoneyCompare D006 (5), InsureCompare D011 (5), MortgageCompare +1 (AED 4M property). See [[00-dashboard/daily/2026-06-22]].
+
 ## Open loops
 
 - LoanCompare.ae calculator moat noted in strategy but no repo found. Confirm status.
