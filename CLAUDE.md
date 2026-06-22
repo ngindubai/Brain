@@ -76,6 +76,24 @@ Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<n
 - **One source of truth.** This repo is the source. Keep it text-only so mobile git stays fast.
 - **Repos live elsewhere.** Each area links to its live GitHub repos. The brain points at the code, it does not hold it.
 
+## Link-dump research workflow
+
+When Gareth drops one or more URLs into chat, this is the protocol:
+
+1. **Fetch each URL.** Read the full page content.
+2. **Create a research note.** File it at `research/<short-name>.md` using the standard research template. The note must include:
+   - A plain-English summary of what the link is and why it matters.
+   - Key takeaways (bullet list, max 7 items).
+   - Source URL and date captured.
+   - `status: raw`
+3. **Cross-link to areas and projects.** Scan the vault map (areas table in this file, `00-dashboard/projects.md`, `research/research.md`) and identify every area or project the content is relevant to. Add `[[wikilinks]]` to those in the note's frontmatter under `related`. Also add a backlink line in the relevant area or project note pointing at the new research note.
+4. **Update research.md.** Add a row to the Topics table in `research/research.md`.
+5. **Tell me what was filed and what it was linked to.** One short message, no fluff.
+
+If multiple URLs arrive at once, batch them: one note per URL, one commit per batch.
+
+Do not ask before fetching. Do not ask where to file. Decide and do it.
+
 ## Skills
 
 Reusable workflows in `skills/`:
