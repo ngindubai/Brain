@@ -11,10 +11,11 @@ Every active project at a glance. Kept current by the daily ritual. Open a proje
 
 | Project | Priority | Status | Next action | Tracker |
 |---|---|---|---|---|
+| Marketing department build | P1 | Plan done, build on mock data | Five manual tasks, then run B1 | [[projects/marketing-department/plan]] |
 | Hermes compare-site reporting | P1 | Frontier: wire Hermes (B8), reports (B9) | Confirm warehouse deployed, run B8 | [[projects/hermes-compare-reporting/plan]] |
 | SEO indexing fix | P1 | Active: site by site | RepatriationFuneral canonical and duplication repair | [[projects/seo-indexing-fix/plan]] |
 | Orwell Corp 3D office | P2 | Active: viewer polish, asset swap | Restore Blender, retry Poly Pizza one asset at a time | [[projects/orwell-corp-office/plan]] |
-| Brain ingestion | P2 | Active: plan set, awaiting files | Ingest Batch 1 (SEO portfolio) | [[projects/brain-ingestion/plan]] |
+| Brain ingestion | P2 | Active: agent-org batch done | Next batch on request | [[projects/brain-ingestion/plan]] |
 | NORTHLANDS | P3 (hobby) | Active: deploying fixes | FTP-upload flattened nl_deathdrop | [[projects/northlands/plan]] |
 
 ## How this stays current
