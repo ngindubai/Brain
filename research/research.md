@@ -18,6 +18,8 @@ The idea shelf. Where a new idea lives while I bounce it around, before it is a 
 
 This is the earliest stage. research is looser than [[areas/ventures/ventures]], which holds bets already worth tracking. Flow: raw idea here, then a project when committed.
 
+External git links from research notes get filed in [[github-database/github-database]].
+
 ## Lifecycle
 
 raw  ->  exploring  ->  ready to promote  ->  project
@@ -26,4 +28,5 @@ raw  ->  exploring  ->  ready to promote  ->  project
 
 | Topic | Status | Note |
 |---|---|---|
-| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent OS -- $27/month, persistent memory, self-improving skills, multi-agent team on a $6 VPS. High relevance to agent-org. |
+| [[research/advanced-web-design]] | exploring | The main learning topic. Premium scroll-driven motion sites via GSAP/Lenis/Three.js craft + Claude Code & Higgsfield MCP automation. Agency floor $6k-35k, our marginal cost near zero. Feeds KlientFlo and the portfolio. |
+| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent OS -- $27/month, persistent memory, self-improving skills, multi-agent team on a $6 VPS. High relevance to agent-org. Filed against the wrong tweet, kept as still useful. |
