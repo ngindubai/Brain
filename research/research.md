@@ -29,4 +29,5 @@ raw  ->  exploring  ->  ready to promote  ->  project
 | Topic | Status | Note |
 |---|---|---|
 | [[research/advanced-web-design]] | exploring | The main learning topic. Premium scroll-driven motion sites via GSAP/Lenis/Three.js craft + Claude Code & Higgsfield MCP automation. Agency floor $6k-35k, our marginal cost near zero. Feeds KlientFlo and the portfolio. |
-| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent OS -- $27/month, persistent memory, self-improving skills, multi-agent team on a $6 VPS. High relevance to agent-org. Filed against the wrong tweet, kept as still useful. |
+| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent runtime. Persistent memory, self-improving skills, multi-agent team on a cheap VPS. The model-vs-runtime split and the Orwell topology are now settled in [[reference/orwell-corp-stack-decisions]]. |
+| [[research/agent-skills-ecosystem]] | exploring | skills.sh, Vercel's open agent-skills directory. Hermes is a supported runtime. Install maintained worker and process skills, pinned and audited. Adds ai-seo and schema-markup for the compare-site reports. Feeds the Orwell-Corp build as steps S1 and S2. |

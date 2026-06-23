@@ -2,7 +2,7 @@
 title: Ventures
 area: ventures
 tags: [area, ventures, research]
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 # Ventures
@@ -12,7 +12,7 @@ Research bets already worth tracking. Earlier-stage ideas live in [[research/res
 ## Live and explored
 
 - **UK energy claims** - `ngindubai/energy-claims-scraper`. Follows the Supreme Court ruling on broker commission recovery.
-- **GPU compute** - distributed rack business model, operator vs landlord variants.
+- **GPU compute** - distributed rack business model, operator vs landlord variants. First practical use in-house: a RunPod GPU now hosts the Hermes 4 70B model for the agent org. See [[reference/orwell-corp-stack-decisions]].
 - **Amazon KDP** - AI-assisted self-publishing.
 - **Property opportunities** - 114 opportunities across seven clusters identified. Top three: international equine transport, document legalisation and apostille, international vehicle import brokerage.
 - **US service businesses** - pest control, junk removal, water damage restoration flagged as top lead-gen candidates.
