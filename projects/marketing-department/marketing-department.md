@@ -3,15 +3,19 @@ title: Marketing department build - tracker
 area: agent-org
 tags: [project, agents, marketing, hermes]
 status: active
-stage: Plan and review docs produced; build runs B1-B10 in Claude Code on mock data
-next_action: Do the five manual tasks, then run B1 in Claude Code and advance with "build next"
+stage: Realised in Orwell-Corp through B15 on mock data; next phase is the build-next plan from B16
+next_action: Run B16 (reduce to three) and S1 (skills layer); see [[reference/orwell-corp-stack-decisions]]
 source: https://claude.ai/chat/8ed658bc-9b08-4a45-84bd-3561ee4dc195
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 # Marketing department build
 
-The first humanless department: ten recommendation-only marketing agents across Cluster A and Cluster B. Parent of [[projects/hermes-compare-reporting/hermes-compare-reporting]], the Cluster B reporting slice. Sits under [[areas/agent-org/agent-org]].
+The first humanless department: recommendation-only marketing agents across Cluster A and Cluster B. Parent of [[projects/hermes-compare-reporting/hermes-compare-reporting]], the Cluster B reporting slice. Sits under [[areas/agent-org/agent-org]].
+
+## Update 2026-06-23: realised in Orwell-Corp, next phase set
+
+The department is realised in the `ngindubai/Orwell-Corp` repo, built through B15 on mock data: the Command Centre dashboard, the Neon warehouse, the connectors, the reports, and seventeen agents (more than the original ten). The Next.js dashboard, dropped in the early plan, was re-added and is part of the repo. The settled stack and the next-phase plan are in [[reference/orwell-corp-stack-decisions]], and the skills layer that sharpens the agents is in [[research/agent-skills-ecosystem]].
 
 ## The one goal
 
@@ -19,43 +23,24 @@ A marketing department of agents that reads the sites, analyses, and writes reco
 
 ## What was decided
 
-- Keep the ten recommendation-only agents, the recommendation schema, the Postgres and pgvector warehouse, and the connector set (from the reconciled ChatGPT plan).
-- Drop the Node/BullMQ orchestrator and the Next.js dashboard. Hermes is the single orchestrator. Output goes to the warehouse and reports first; a dashboard is a later phase.
+- Keep the recommendation-only agents, the recommendation schema, the Neon Postgres and pgvector warehouse, and the connector set.
+- Hermes is the single orchestrator. The dashboard was re-added as the Command Centre.
 - Recommendation-only is enforced by withholding the publish and send tools from the Hermes toolset, not by instruction alone. Even a confused agent cannot touch anything live.
-- Token model: read-only on the nine site repos, read/write only on the new `orwell-marketing` repo. Agents read the sites, never write to them.
-- Mock data by design. The whole loop can be proved without Search Console, GA4 or Semrush credentials. Wire those in later.
+- Token model: read-only on the site repos, read/write only on the Orwell-Corp repo. Agents read the sites, never write to them.
+- Mock data by design for the build; real connectors and the removal of mock come in the next phase (B21 to B24).
 
 ## Hermes fit (verified)
 
-- Installs natively on Windows with one PowerShell line, no WSL.
+- Installs natively on Windows; moving to a Hostinger VPS in the next phase so it runs always-on.
 - Agent identity file is literally `SOUL.md`, so the souls pattern maps straight on. See [[areas/agent-org/workforce-souls]].
-- Has a cron tool for the daily runs.
-- Takes GitHub through an MCP entry with a token.
-
-## The plan
-
-`marketing-department-build.md` is the executable cascade: drop it into Claude Code in an empty folder, say "build next" to advance one step at a time through B1 to B10. Each step commits and stops on its own. `marketing-department-build-plan.html` is the review copy.
-
-## The five manual tasks (the only ones Claude Code cannot do)
-
-1. The Firswoods API key
-2. The Neon connection string
-3. The GitHub token
-4. Installing Hermes
-5. Confirming Claude Code is present
-
-Everything else, including turning on pgvector and creating the repo, is Claude Code's job.
-
-## Cautions
-
-- Hermes runs on a metered API key, no subscription pool. Set a spend limit in the Firswoods console before the first run, start with one business.
-- Start on mock data, one business, then widen.
+- Has a cron tool for the daily runs. Takes GitHub through an MCP entry with a token.
+- Routine work routes to the Hermes 4 70B model, deep thinking to Claude. See [[reference/orwell-corp-stack-decisions]].
 
 ## Next actions
 
-1. Do the five manual tasks.
-2. Run B1 in Claude Code, advance with "build next".
-3. Prove the loop on mock data for one business.
-4. Wire the Cluster B reporting slice: [[projects/hermes-compare-reporting/hermes-compare-reporting]].
+1. Run B16 (reduce to three) and S1 (skills layer).
+2. Stand up the cloud (B17 to B19), harden and gate go-live (S2), cut the PC over (B20).
+3. Make the data real (B21 to B24), then the deeper report, Processes tab and exports (B25 to B27).
+4. Keep the Cluster B reporting slice in step: [[projects/hermes-compare-reporting/hermes-compare-reporting]].
 
-Source: chat 8ed658bc. The full original HTML review doc lives in that conversation.
+Source: chat 8ed658bc and the 23 June stack-settle session.

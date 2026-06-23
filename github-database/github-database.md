@@ -33,7 +33,7 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 
 | Repo | What it is | Status |
 |---|---|---|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent, persistent memory, self-written skills, runs on a $5 VPS | evaluating |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent runtime, persistent memory, self-written skills, runs on a $5 VPS, model-agnostic. The Orwell agent-org runtime | evaluating |
 | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | Curated list of Hermes skills, tools, integrations | shelf |
 
 ### MCP servers
@@ -46,7 +46,16 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 
 | Repo | What it is | Status |
 |---|---|---|
-| [agentskills.io](https://agentskills.io) | Open skill standard, portable/shareable agent skills | shelf |
+| [skills.sh](https://www.skills.sh) ([vercel-labs/skills](https://github.com/vercel-labs/skills)) | Vercel's open agent-skills directory and CLI. Hermes is a supported runtime | using |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | The marketing skill pack, maintained; adds ai-seo, schema-markup, competitor-alternatives, pricing-strategy | using |
+| [obra/superpowers](https://github.com/obra/superpowers) | Process and quality skills (verification, subagents, plans) | using |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official skills: webapp-testing, mcp-builder, frontend-design, docx/pdf/xlsx | using |
+| [vercel-labs/next-skills](https://github.com/vercel-labs/next-skills) | Next.js best-practice skills for the dashboard | evaluating |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Writing-quality polish skills | evaluating |
+| [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) | Design-taste, brandkit, extract-design-system | evaluating |
+| [xixu-me/skills](https://github.com/xixu-me/skills) | Mixed; openclaw security skill not used as written, principles only | shelf |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | Engineering process skills | shelf |
+| [agentskills.io](https://agentskills.io) | Open skill standard and community hub | shelf |
 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975) | 753+ cybersecurity skills mapped to MITRE ATT&CK | shelf |
 
 ### Web design
@@ -63,6 +72,9 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Repo | What it is | Status |
 |---|---|---|
 | [jo-inc/camofox-browser](https://github.com/jo-inc) | Stealth headless browser, bypasses Cloudflare/bot detection. Puppeteer/Playwright drop-in | shelf |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | CLI browser automation, predictable structured tasks | evaluating |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation with visual understanding | evaluating |
+| [scrapegraphai/just-scrape](https://github.com/scrapegraphai/just-scrape) | Structured scraping skill | evaluating |
 
 ## Adding a repo
 
