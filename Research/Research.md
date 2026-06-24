@@ -23,8 +23,8 @@ raw  ->  exploring  ->  ready to promote  ->  project
 
 ## Topics
 
-None yet. Say "new idea: ..." and I will add the first one.
-
 | Topic | Status | Note |
 |---|---|---|
-| | | |
+| Advanced web design | exploring | [[Advanced Web Design]] |
+| Agent skills ecosystem | exploring | [[Agent Skills Ecosystem]] |
+| Hermes Agent as personal AI OS | raw | [[Hermes Agent Personal AI OS]] |
