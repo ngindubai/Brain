@@ -20,7 +20,7 @@ This year's deliverables:
 2. Grow Orwell's custom-build client channel (KlientFlo-type paid builds, made repeatable).
 3. Comparison network standing up as an earning asset.
 
-Everything either earns now or moves toward the north star. Live grades on [[00-dashboard/priorities]].
+Everything either earns now or moves toward the north star. Live grades on [[Priorities]].
 
 ## What this brain is for
 
@@ -46,33 +46,28 @@ In priority order:
 
 - Remind me of open loops in every daily, weekly and monthly summary.
 - Keep me focused. I start more than I close.
-- Run the monthly grading review so priorities stay honest. See [[reference/priority-system]].
+- Run the monthly grading review so priorities stay honest. See [[Priority System]].
 
 ## Daily ritual
 
-At the end of each day, when I ask, summarise the day's work and plan tomorrow. Run the `daily-summary` skill. Sources: today's claude.ai chats, the day's commits across the `ngindubai` repos (the record of what Claude Code shipped), and anything I paste. Update each project tracker and the projects board, write the daily note with done, decisions and open loops, and list tomorrow's top actions ranked by priority. Never invent progress: if it is not in a chat, a commit, or pasted, say so. This ritual tracks and plans only, it does not do the project work.
-
-## Strengths
-
-Clear vision and systems thinking. Ship fast by pairing strict house-style with AI tools. Strong SEO and business-model instinct. Push hard across many fronts at once.
+At the end of each day, when I ask, summarise the day's work and plan tomorrow. Run the Daily Summary skill. Sources: today's claude.ai chats, the day's commits across the `ngindubai` repos (the record of what Claude Code shipped), and anything I paste. Update each project tracker and the projects board, write the daily note with done, decisions and open loops, and list tomorrow's top actions ranked by priority. Never invent progress: if it is not in a chat, a commit, or pasted, say so. This ritual tracks and plans only, it does not do the project work.
 
 ## Current projects
 
-Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<name>/<name>.md`. New ideas being bounced around live in [[research/research]] until they become projects.
+Glance view: [[Projects Board]]. Each project's detail is in `Projects/<Name>/<Name>.md`. New ideas being bounced around live in [[Research]] until they become projects.
 
 ## How to operate the brain
 
-- **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `_inbox/` with a clear title and flag it.
-- **Filing rule.** A new idea to bounce around goes in `research/`, one note per idea. Ongoing domains go in `areas/`. Time-boxed work with one goal goes in `projects/`. Durable knowledge goes in `reference/`. Raw unsorted capture goes in `_inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `github-database/`.
-- **Idea lifecycle.** A loose idea lives in `research/` as one note, then graduates to `projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[research/research]].
-- **Naming for the graph.** Name the map note of a folder after its topic, not `index`. Area notes are `areas/<area>/<area>.md`, project trackers are `projects/<name>/<name>.md`. This keeps the graph readable.
-- **Project status.** Each project's tracker is `projects/<name>/<name>.md`, with status, stage and next_action in frontmatter. The glance view is `00-dashboard/projects.md`, kept current by the daily ritual.
+- **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `Inbox/` with a clear title and flag it.
+- **Filing rule.** A new idea to bounce around goes in `Research/`, one note per idea. Ongoing domains go in `Areas/`. Time-boxed work with one goal goes in `Projects/`. Durable knowledge goes in `Reference/`. Raw unsorted capture goes in `Inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `GitHub Library/`.
+- **Idea lifecycle.** A loose idea lives in `Research/` as one note, then graduates to `Projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[Research]].
+- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph (the graph shows the filename, not the title). Daily notes are dated `YYYY-MM-DD.md`.
+- **Linking.** Use short `[[wikilinks]]` by basename, for example `[[Agent Org]]`, since names are unique. Each area note is the map for that domain. Link new notes back to their area note.
+- **Project status.** Each project's tracker is `Projects/<Name>/<Name>.md`, with status, stage and next_action in frontmatter. The glance view is [[Projects Board]], kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
-- **Retrieval order.** Read `00-dashboard/hot.md` first, then `00-dashboard/home.md`, then the relevant area note, then individual notes. Do not read the whole vault for a simple question.
-- **Keep hot.md current.** When you file something significant, add a line to `00-dashboard/hot.md` and trim it to about 500 words.
-- **Naming.** Lower-case, hyphenated, dated where it matters: `YYYY-MM-DD-topic.md`. No spaces.
-- **Frontmatter.** Every note starts with title, area, tags, updated.
-- **Linking.** Use `[[wikilinks]]`. Each area note is the map for that domain. Link new notes back to their area note.
+- **Retrieval order.** Read [[Hot]] first, then [[Dashboard]], then the relevant area note, then individual notes. Do not read the whole vault for a simple question.
+- **Keep Hot current.** When you file something significant, add a line to [[Hot]] and trim it to about 500 words.
+- **Frontmatter.** Every note starts with title, tags, updated.
 - **One source of truth.** This repo is the source. Keep it text-only so mobile git stays fast.
 - **Repos live elsewhere.** Each area links to its live GitHub repos. The brain points at the code, it does not hold it.
 
@@ -80,66 +75,59 @@ Glance view: [[00-dashboard/projects]]. Each project's detail is in `projects/<n
 
 When Gareth drops one or more URLs into chat, this is the protocol:
 
-1. **Fetch each URL.** Read the full page content. If a URL will not fetch (e.g. X/Twitter blocks it), web-search for the content and **flag clearly if the source cannot be confirmed**. Do not build a confident note on an unverified source. If a tweet/status ID resolves to content that looks unrelated to what Gareth described, say so and ask, rather than filing it as fact.
-2. **Create a research note.** File it at `research/<short-name>.md` using the standard research template. The note must include:
-   - A plain-English summary of what the link is and why it matters.
-   - Key takeaways (bullet list, max 7 items).
-   - Source URL and date captured.
-   - `status: raw` (or `exploring` once developed).
-3. **Cross-link to areas and projects.** Scan the vault map (areas table in this file, `00-dashboard/projects.md`, `research/research.md`) and identify every area or project the content is relevant to. Add `[[wikilinks]]` to those in the note's frontmatter under `related`. Also add a backlink line in the relevant area or project note pointing at the new research note.
-4. **File any git repos.** If the link is, or references, third-party git repos worth keeping, add them to `github-database/` (see below).
-5. **Update the indexes.** Add a row to the Topics table in `research/research.md`, and to the relevant `github-database/` files if repos were added.
+1. **Fetch each URL.** Read the full page content. If a URL will not fetch (e.g. X/Twitter blocks it), web-search for the content and **flag clearly if the source cannot be confirmed**. Do not build a confident note on an unverified source.
+2. **Create a research note.** File it in `Research/` using the Idea Template. The note must include: a plain-English summary of what the link is and why it matters; key takeaways (max 7); source URL and date captured; `status: raw` (or `exploring` once developed).
+3. **Cross-link to areas and projects.** Scan the vault map (the areas table in this file, [[Projects Board]], [[Research]]) and identify every area or project the content is relevant to. Add `[[wikilinks]]` under `related` in the note's frontmatter, and a backlink in the relevant area or project note.
+4. **File any git repos.** If the link is, or references, third-party git repos worth keeping, add them to `GitHub Library/`.
+5. **Update the indexes.** Add a row to the Topics table in [[Research]], and to the relevant `GitHub Library/` files if repos were added.
 6. **Tell me what was filed and what it was linked to.** One short message, no fluff.
 
-If multiple URLs arrive at once, batch them: one note per URL, one commit per batch.
+If multiple URLs arrive at once, batch them: one note per URL, one commit per batch. Do not ask before fetching. Do not ask where to file. Decide and do it.
 
-Do not ask before fetching. Do not ask where to file. Decide and do it.
+## GitHub Library
 
-## GitHub database
+`GitHub Library/` is the external git library: every third-party repo we pull skills, tools, or reference code from, sorted by category. It is **not** Orwell's own code (that lives in the live repos linked from each area in the map below). Map note: [[GitHub Library]].
 
-`github-database/` is the external git library: every third-party repo we pull skills, tools, or reference code from, sorted by category. It is **not** Orwell's own code (that lives in the live repos linked from each area in the map below). Map note: [[github-database/github-database]].
-
-- **Structure.** One file per category, named after the category. A master list lives in the map note, broken down by category. Each repo is a row: name/link, what it is, what we'd pull, which Orwell area it feeds, and status (`using`, `evaluating`, `shelf`).
-- **Filing a git link.** When I drop a repo, pick the category, add a row to that category file and to the master list in the map note, set status, and note any area it feeds. New category if none fits: create the file and add it to the master list. One commit per batch, tell me after.
-- **Current categories.** Agent frameworks, MCP servers, Skill libraries, Web design, Automation tools.
-- **Internal vs external.** Our own reusable workflows stay in `skills/`. `github-database/` is only for outside repos.
+- **Structure.** One file per category, named after the category. A master list lives in the map note. Each repo is a row: name/link, what it is, what we'd pull, which Orwell area it feeds, and status (`using`, `evaluating`, `shelf`).
+- **Filing a git link.** When I drop a repo, pick the category, add a row to that category file and to the master list in the map note, set status, note any area it feeds. New category if none fits. One commit per batch, tell me after.
+- **Internal vs external.** Our own reusable workflows stay in `Skills/`. `GitHub Library/` is only for outside repos.
 
 ## Skills
 
-Reusable workflows in `skills/`:
+Reusable workflows in `Skills/`:
 
-- `file-inbox` - sort a dump into the right place
-- `query` - answer a question from the vault
-- `lint` - vault health check
-- `save-conversation` - file the current chat as a structured note
-- `daily-summary` - end-of-day summary and tomorrow's plan
-- `weekly-review` - what moved, what stalled, open loops
-- `grading-review` - monthly re-grade of priorities
-- `new-project` - scaffold a new project (including promoting one from research)
+- File Inbox - sort a dump into the right place
+- Query - answer a question from the vault
+- Lint - vault health check
+- Save Conversation - file the current chat as a structured note
+- Daily Summary - end-of-day summary and tomorrow's plan
+- Weekly Review - what moved, what stalled, open loops
+- Grading Review - monthly re-grade of priorities
+- New Project - scaffold a new project (including promoting one from research)
 
 ## House style (law)
 
 - British English. No em dashes anywhere.
 - Fonts for any built document: Inter, with IBM Plex Mono for code and labels.
 - Accent colour `#2752E6`. White backgrounds.
-- Banned words: delve, meticulous, comprehensive, leverage, seamless, robust, and the rest in [[reference/house-style]].
+- Banned words: delve, meticulous, comprehensive, leverage, seamless, robust, and the rest in [[House Style]].
 - Operational documents are tickable instruction manuals.
 
 ## The map
 
 | Area | What it is | Repos |
 |---|---|---|
-| [[areas/agent-org/agent-org]] | The humanless-company engine | orwell-marketing, pet-transport (souls) |
-| [[areas/seo-portfolio/seo-portfolio]] | Programmatic SEO lead-gen | pet-transport, funeral-repatriation, closeprotectionhure-com, global-bus-hire, pest-control-usa |
-| [[areas/comparison-network/comparison-network]] | UAE comparison sites | mortgagecompare-ae, moneycompare-ae, insurecompare-ae, companyformation.ae, legalconsultants.ae |
-| [[areas/crm-systems/crm-systems]] | CRM back-ends | mc-crm, logistics-crm, global-bus-rental-crm, firswood-crm |
-| [[areas/products/products]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
-| [[areas/ventures/ventures]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
-| [[areas/trading/trading]] | Options and futures | Trader Capture Kit |
+| [[Agent Org]] | The humanless-company engine | orwell-marketing, pet-transport (souls) |
+| [[SEO Portfolio]] | Programmatic SEO lead-gen | pet-transport, funeral-repatriation, closeprotectionhure-com, global-bus-hire, pest-control-usa |
+| [[Comparison Network]] | UAE comparison sites | mortgagecompare-ae, moneycompare-ae, insurecompare-ae, companyformation.ae, legalconsultants.ae |
+| [[CRM Systems]] | CRM back-ends | mc-crm, logistics-crm, global-bus-rental-crm, firswood-crm |
+| [[Products]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
+| [[Ventures]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
 
 ## The shelves (non-area sections)
 
 | Section | What it is | Map note |
 |---|---|---|
-| Research | The idea shelf, pre-project | [[research/research]] |
-| GitHub database | External third-party repos we pull from | [[github-database/github-database]] |
+| Research | The idea shelf, pre-project | [[Research]] |
+| GitHub Library | External third-party repos we pull from | [[GitHub Library]] |
+| Reference | Durable knowledge and decision records | [[House Style]], [[Priority System]], [[Orwell Corp Stack Decisions]] |
