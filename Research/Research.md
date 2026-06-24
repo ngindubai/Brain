@@ -1,7 +1,7 @@
 ---
 title: Research
 tags: [research, ideas, incubator, moc]
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # Research
@@ -27,4 +27,5 @@ raw  ->  exploring  ->  ready to promote  ->  project
 |---|---|---|
 | Advanced web design | exploring | [[Advanced Web Design]] |
 | Agent skills ecosystem | exploring | [[Agent Skills Ecosystem]] |
+| Agentic AI keyword forecast | exploring | [[Agentic AI Keyword Forecast]] |
 | Hermes Agent as personal AI OS | raw | [[Hermes Agent Personal AI OS]] |
