@@ -28,4 +28,8 @@ raw  ->  exploring  ->  ready to promote  ->  project
 | Advanced web design | exploring | [[Advanced Web Design]] |
 | Agent skills ecosystem | exploring | [[Agent Skills Ecosystem]] |
 | Agentic AI keyword forecast | exploring | [[Agentic AI Keyword Forecast]] |
+| ComfyUI | exploring | [[ComfyUI]] |
+| GenAI Agents tutorials (NirDiamant) | raw | [[GenAI Agents]] |
 | Hermes Agent as personal AI OS | raw | [[Hermes Agent Personal AI OS]] |
+| Meshy AI 3D generation | exploring | [[Meshy]] |
+| MetaGPT multi-agent framework | exploring | [[MetaGPT Multi-Agent Framework]] |

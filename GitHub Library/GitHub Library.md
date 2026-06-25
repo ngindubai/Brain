@@ -25,7 +25,8 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Skill libraries | Reusable agent skills (agentskills.io etc) | [[Skill Libraries]] |
 | Web design | Animation, scroll, 3D, frontend craft | [[Web Design]] |
 | Automation tools | Browser automation, scraping, pipelines | [[Automation Tools]] |
-| Reference directories | Curated use-case lists, idea banks, prior art | [[AI Agent Use Case Directory]] |
+| Creative AI tools | Image, video, 3D and audio generation engines | [[Creative AI Tools]] |
+| Reference directories | Curated use-case lists, tutorial collections, prior art | [[AI Agent Use Case Directory]] |
 
 ## Master list (all repos, by category)
 
@@ -77,11 +78,19 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation with visual understanding | evaluating |
 | [scrapegraphai/just-scrape](https://github.com/scrapegraphai/just-scrape) | Structured scraping skill | evaluating |
 
+### Creative AI tools
+
+| Repo / Product | What it is | Status |
+|---|---|---|
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Node-graph diffusion engine: image, video, 3D, audio. 118k stars, REST API, self-hostable, GPL-3.0 | evaluating |
+| [Meshy](https://www.meshy.ai) | AI 3D generation SaaS: text/image → textured 3D model in ~1 min. 10M users, REST API, ComfyUI plugin. Meshy 6 (Jan 2026) is production-ready | evaluating |
+
 ### Reference directories
 
 | Repo | What it is | Status |
 |---|---|---|
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 500+ curated AI agent use cases across industries (healthcare, finance, retail, logistics, legal, HR, real estate, energy). Organised by framework: CrewAI, AutoGen, Agno, LangGraph. 31.6k stars | shelf |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 500+ curated AI agent use cases across industries. Organised by framework: CrewAI, AutoGen, Agno, LangGraph. 31.6k stars | shelf |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 52 runnable notebook tutorials: beginner to advanced multi-agent systems. LangGraph, LangChain, AutoGen, CrewAI. 22k stars. Non-commercial licence | shelf |
 
 ## Adding a repo
 
