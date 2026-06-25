@@ -35,6 +35,7 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 |---|---|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent runtime, persistent memory, self-written skills, runs on a $5 VPS, model-agnostic. The Orwell agent-org runtime | evaluating |
 | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | Curated list of Hermes skills, tools, integrations | shelf |
+| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework: full software company in LLM agents (PM, architect, engineer), role-based SOPs, one-line-to-repo output. 69k stars. Commercial product: mgx.dev | evaluating |
 
 ### MCP servers
 
