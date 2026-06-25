@@ -1,8 +1,7 @@
 ---
 title: Research
-area: research
 tags: [research, ideas, incubator, moc]
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 # Research
@@ -11,14 +10,12 @@ The idea shelf. Where a new idea lives while I bounce it around, before it is a 
 
 ## How it works
 
-- A new idea lands here as its own note: `research/<short-name>.md`, from [[research/_template]].
+- A new idea lands here as its own note, from [[Idea Template]].
 - I help develop it: questions, quick research, pros and cons, what would have to be true.
-- When an idea earns real work it **graduates to a project**. I copy it into `projects/<name>/`, give it a tracker and one goal, link back here, and mark the research note "promoted".
-- If an idea dies, mark it "parked" or "dropped". Keep it. Dead ideas are useful later.
+- When an idea earns real work it **graduates to a project**. I copy it into `Projects/`, give it a tracker and one goal, link back here, and mark the research note "promoted".
+- If an idea dies, mark it "parked" or "dropped". Keep it.
 
-This is the earliest stage. research is looser than [[areas/ventures/ventures]], which holds bets already worth tracking. Flow: raw idea here, then a project when committed.
-
-External git links from research notes get filed in [[github-database/github-database]].
+This is the earliest stage. Research is looser than [[Ventures]], which holds bets already worth tracking.
 
 ## Lifecycle
 
@@ -26,8 +23,8 @@ raw  ->  exploring  ->  ready to promote  ->  project
 
 ## Topics
 
+None yet. Say "new idea: ..." and I will add the first one.
+
 | Topic | Status | Note |
 |---|---|---|
-| [[research/advanced-web-design]] | exploring | The main learning topic. Premium scroll-driven motion sites via GSAP/Lenis/Three.js craft + Claude Code & Higgsfield MCP automation. Agency floor $6k-35k, our marginal cost near zero. Feeds KlientFlo and the portfolio. |
-| [[research/hermes-agent-personal-ai-os]] | raw | Nous Research open-source agent runtime. Persistent memory, self-improving skills, multi-agent team on a cheap VPS. The model-vs-runtime split and the Orwell topology are now settled in [[reference/orwell-corp-stack-decisions]]. |
-| [[research/agent-skills-ecosystem]] | exploring | skills.sh, Vercel's open agent-skills directory. Hermes is a supported runtime. Install maintained worker and process skills, pinned and audited. Adds ai-seo and schema-markup for the compare-site reports. Feeds the Orwell-Corp build as steps S1 and S2. |
+| | | |
