@@ -1,7 +1,7 @@
 ---
 title: GitHub Library
 tags: [github-library, repos, skills, tools, moc, master-list]
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # GitHub Library
@@ -25,6 +25,7 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Skill libraries | Reusable agent skills (agentskills.io etc) | [[Skill Libraries]] |
 | Web design | Animation, scroll, 3D, frontend craft | [[Web Design]] |
 | Automation tools | Browser automation, scraping, pipelines | [[Automation Tools]] |
+| Reference directories | Curated use-case lists, idea banks, prior art | [[AI Agent Use Case Directory]] |
 
 ## Master list (all repos, by category)
 
@@ -74,6 +75,12 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | CLI browser automation, predictable structured tasks | evaluating |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation with visual understanding | evaluating |
 | [scrapegraphai/just-scrape](https://github.com/scrapegraphai/just-scrape) | Structured scraping skill | evaluating |
+
+### Reference directories
+
+| Repo | What it is | Status |
+|---|---|---|
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 500+ curated AI agent use cases across industries (healthcare, finance, retail, logistics, legal, HR, real estate, energy). Organised by framework: CrewAI, AutoGen, Agno, LangGraph. 31.6k stars | shelf |
 
 ## Adding a repo
 
