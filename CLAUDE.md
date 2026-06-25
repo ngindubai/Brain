@@ -52,6 +52,15 @@ In priority order:
 
 At the end of each day, when I ask, summarise the day's work and plan tomorrow. Run the Daily Summary skill. Sources: today's claude.ai chats, the day's commits across the `ngindubai` repos (the record of what Claude Code shipped), and anything I paste. Update each project tracker and the projects board, write the daily note with done, decisions and open loops, and list tomorrow's top actions ranked by priority. Never invent progress: if it is not in a chat, a commit, or pasted, say so. This ritual tracks and plans only, it does not do the project work.
 
+## Intelligence Report (Daily)
+
+When Gareth says "run the daily report" or "daily brief", execute the Intelligence Report skill:
+
+1. **Fetch stories from every source in the feed list** (see [[Intelligence Feed Sources]]). Top 5 stories per source. Use web_search and web_fetch. Do not skip sources. Flag any source that fails to load.
+2. **Write the report** to `Intelligence Reports/YYYY-MM-DD.md` using the Daily Intelligence Report Template (see [[Daily Report Template]]). The report must be at least a ten-minute read: substantive analysis, not headlines. Every story gets a source link. Every relevant vault note gets a [[wikilink]].
+3. **Commit to GitHub** via the git MCP. Tell Gareth after.
+4. **Do not summarise the sources in one sentence and call it done.** Analyse. Contextualise. Connect the dots across stories. Point to what it means for Orwell, the portfolio, or the agentic AI space.
+
 ## Current projects
 
 Glance view: [[Projects Board]]. Each project's detail is in `Projects/<Name>/<Name>.md`. New ideas being bounced around live in [[Research]] until they become projects.
@@ -61,7 +70,7 @@ Glance view: [[Projects Board]]. Each project's detail is in `Projects/<Name>/<N
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `Inbox/` with a clear title and flag it.
 - **Filing rule.** A new idea to bounce around goes in `Research/`, one note per idea. Ongoing domains go in `Areas/`. Time-boxed work with one goal goes in `Projects/`. Durable knowledge goes in `Reference/`. Raw unsorted capture goes in `Inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `GitHub Library/`.
 - **Idea lifecycle.** A loose idea lives in `Research/` as one note, then graduates to `Projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[Research]].
-- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph (the graph shows the filename, not the title). Daily notes are dated `YYYY-MM-DD.md`.
+- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph (the graph shows the filename, not the title). Daily notes are dated `YYYY-MM-DD.md`. Intelligence Reports are dated `YYYY-MM-DD.md` and stored in `Intelligence Reports/`.
 - **Linking.** Use short `[[wikilinks]]` by basename, for example `[[Agent Org]]`, since names are unique. Each area note is the map for that domain. Link new notes back to their area note.
 - **Project status.** Each project's tracker is `Projects/<Name>/<Name>.md`, with status, stage and next_action in frontmatter. The glance view is [[Projects Board]], kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
@@ -104,6 +113,7 @@ Reusable workflows in `Skills/`:
 - Weekly Review - what moved, what stalled, open loops
 - Grading Review - monthly re-grade of priorities
 - New Project - scaffold a new project (including promoting one from research)
+- Intelligence Report - daily AI news brief from the feed list (see [[Intelligence Feed Sources]])
 
 ## House style (law)
 
@@ -131,3 +141,4 @@ Reusable workflows in `Skills/`:
 | Research | The idea shelf, pre-project | [[Research]] |
 | GitHub Library | External third-party repos we pull from | [[GitHub Library]] |
 | Reference | Durable knowledge and decision records | [[House Style]], [[Priority System]], [[Orwell Corp Stack Decisions]] |
+| Intelligence Reports | Daily AI news briefs | [[Intelligence Feed Sources]], [[Daily Report Template]] |
