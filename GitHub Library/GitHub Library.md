@@ -1,7 +1,7 @@
 ---
 title: GitHub Library
 tags: [github-library, repos, skills, tools, moc, master-list]
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # GitHub Library
@@ -25,6 +25,8 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Skill libraries | Reusable agent skills (agentskills.io etc) | [[Skill Libraries]] |
 | Web design | Animation, scroll, 3D, frontend craft | [[Web Design]] |
 | Automation tools | Browser automation, scraping, pipelines | [[Automation Tools]] |
+| Creative AI tools | Image, video, 3D and audio generation engines | [[Creative AI Tools]] |
+| Reference directories | Curated use-case lists, tutorial collections, prior art | [[AI Agent Use Case Directory]] |
 
 ## Master list (all repos, by category)
 
@@ -34,6 +36,7 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 |---|---|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Self-improving autonomous agent runtime, persistent memory, self-written skills, runs on a $5 VPS, model-agnostic. The Orwell agent-org runtime | evaluating |
 | [0xNyk/awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent) | Curated list of Hermes skills, tools, integrations | shelf |
+| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework: full software company in LLM agents (PM, architect, engineer), role-based SOPs, one-line-to-repo output. 69k stars. Commercial product: mgx.dev | evaluating |
 
 ### MCP servers
 
@@ -74,6 +77,20 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | CLI browser automation, predictable structured tasks | evaluating |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation with visual understanding | evaluating |
 | [scrapegraphai/just-scrape](https://github.com/scrapegraphai/just-scrape) | Structured scraping skill | evaluating |
+
+### Creative AI tools
+
+| Repo / Product | What it is | Status |
+|---|---|---|
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Node-graph diffusion engine: image, video, 3D, audio. 118k stars, REST API, self-hostable, GPL-3.0 | evaluating |
+| [Meshy](https://www.meshy.ai) | AI 3D generation SaaS: text/image → textured 3D model in ~1 min. 10M users, REST API, ComfyUI plugin. Meshy 6 (Jan 2026) is production-ready | evaluating |
+
+### Reference directories
+
+| Repo | What it is | Status |
+|---|---|---|
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | 500+ curated AI agent use cases across industries. Organised by framework: CrewAI, AutoGen, Agno, LangGraph. 31.6k stars | shelf |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 52 runnable notebook tutorials: beginner to advanced multi-agent systems. LangGraph, LangChain, AutoGen, CrewAI. 22k stars. Non-commercial licence | shelf |
 
 ## Adding a repo
 
