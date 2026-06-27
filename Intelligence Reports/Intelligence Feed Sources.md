@@ -12,17 +12,17 @@ Back to [[CLAUDE]].
 
 ## Tier 1 - Daily feed (high signal, fast)
 
-| # | Source | What it covers | URL / feed |
-|---|---|---|---|
-| 1 | Artificial Analysis | Model benchmarks, Intelligence Index rankings, launch analysis. Single best source for tracking where models rank | https://artificialanalysis.ai/articles |
-| 2 | TechCrunch AI | Broad AI news, fast on launches and funding | https://techcrunch.com/category/artificial-intelligence/ / RSS: https://techcrunch.com/feed/ |
-| 3 | arXiv cs.AI | Primary research papers. Where things appear before the news writes about them | http://export.arxiv.org/rss/cs.AI |
-| 4 | arXiv cs.CL | Computational linguistics and LLM papers | http://export.arxiv.org/rss/cs.CL |
-| 5 | arXiv cs.LG | Machine learning papers | http://export.arxiv.org/rss/cs.LG |
-| 6 | SiliconANGLE AI | Model releases and enterprise AI, often early. Had Kimi K2.6 day one | https://siliconangle.com/category/ai/ / RSS: https://siliconangle.com/category/ai/feed |
-| 7 | Stanford HAI | Authoritative big-picture state-of-play. Poll weekly, not daily | https://hai.stanford.edu / RSS: https://hai.stanford.edu/rss.xml |
-| 8 | Dataconomy | AI market and model coverage | https://dataconomy.com |
-| 9 | TechTimes | Tech/AI news, strong on geopolitics and market-reaction angle | https://www.techtimes.com |
+| #   | Source              | What it covers                                                                                                    | URL / feed                                                                                   |
+| --- | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 1   | Artificial Analysis | Model benchmarks, Intelligence Index rankings, launch analysis. Single best source for tracking where models rank | https://artificialanalysis.ai/articles                                                       |
+| 2   | TechCrunch AI       | Broad AI news, fast on launches and funding                                                                       | https://techcrunch.com/category/artificial-intelligence/ / RSS: https://techcrunch.com/feed/ |
+| 3   | arXiv cs.AI         | Primary research papers. Where things appear before the news writes about them                                    | http://export.arxiv.org/rss/cs.AI                                                            |
+| 4   | arXiv cs.CL         | Computational linguistics and LLM papers                                                                          | http://export.arxiv.org/rss/cs.CL                                                            |
+| 5   | arXiv cs.LG         | Machine learning papers                                                                                           | http://export.arxiv.org/rss/cs.LG                                                            |
+| 6   | SiliconANGLE AI     | Model releases and enterprise AI, often early. Had Kimi K2.6 day one                                              | https://siliconangle.com/category/ai/ / RSS: https://siliconangle.com/category/ai/feed       |
+| 7   | Stanford HAI        | Authoritative big-picture state-of-play. Poll weekly, not daily                                                   | https://hai.stanford.edu / RSS: https://hai.stanford.edu/rss.xml                             |
+| 8   | Dataconomy          | AI market and model coverage                                                                                      | https://dataconomy.com                                                                       |
+| 9   | TechTimes           | Tech/AI news, strong on geopolitics and market-reaction angle                                                     | https://www.techtimes.com                                                                    |
 
 ## Tier 2 - Vendor and primary sources (authoritative but biased toward own announcements)
 
