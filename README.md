@@ -1,23 +1,23 @@
-# brain
+# Brain
 
-My second brain. A text-only Obsidian vault that lives as a private GitHub repo. Claude files into it; I read and capture from it on mobile.
+Gareth's second brain for Orwell AI. A private Obsidian vault, version-controlled here and synced across desktop, iPad and Android.
 
-## How it works
-
-- **Capture:** I mostly tell Claude things in chat. Claude files them into this repo via GitHub, named and linked. I can also drop raw notes into `_inbox/` myself.
-- **Sync:** the GitSync app on Android pulls this repo to my phone. Obsidian opens the synced folder.
-- **Retrieve:** ask Claude, or browse the graph in Obsidian.
-- **Autopilot:** a daily routine files the inbox and writes a short summary into `00-dashboard/daily/`.
+Claude reads and writes this repo through the GitHub connector and files everything per the rules in `CLAUDE.md`. Start there.
 
 ## Structure
 
-- `_inbox/` raw capture, unsorted
-- `00-dashboard/` the map, plus daily notes and summaries
-- `areas/` ongoing domains
-- `projects/` time-boxed work, one goal each
-- `reference/` durable knowledge and house style
-- `skills/` reusable workflows Claude runs on command
+- `Dashboard/` - the map, the hot list, projects, priorities, open tasks, daily notes
+- `Areas/` - ongoing domains, one folder each
+- `Projects/` - time-boxed work with one goal each
+- `Reference/` - durable knowledge and decision records
+- `Skills/` - reusable Claude workflows
+- `Research/` - the idea shelf, pre-project
+- `GitHub Library/` - external third-party repos we pull from
+- `Inbox/` - raw capture, to be filed
+- `.raw/` - immutable original source documents
 
-## Operating context
+## Naming
 
-`CLAUDE.md` at the root is the instruction set Claude loads every session.
+Title Case, spaces allowed, no `_index` and no prefixes, so every node reads cleanly in the graph. Links are short `[[wikilinks]]` by name.
+
+Start at `CLAUDE.md`, then `Dashboard/Dashboard.md`.

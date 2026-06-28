@@ -1,9 +1,14 @@
-# Obsidian per-device files that cause sync conflicts
+# Obsidian local state (do not sync, causes cross-device churn)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
-.obsidian/plugins/obsidian-git/data.json
-conflict-files-obsidian-git.md
+.obsidian/workspace
+.obsidian/cache
+.trash/
 
-# OS noise
+# Stray Obsidian scratch files
+Untitled.*
+
+# OS junk
 .DS_Store
 Thumbs.db
+desktop.ini
