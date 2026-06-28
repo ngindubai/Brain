@@ -1,64 +1,104 @@
 ---
 title: Intelligence Feed Sources
 tags: [intelligence, feeds, sources, daily-report]
-updated: 2026-06-26
+updated: 2026-06-28
 ---
 
 # Intelligence Feed Sources
 
-The canonical source list for the daily intelligence report. When running [[Daily Report Template]], fetch the top 5 stories from every Tier 1 and Tier 2 source. Tier 3 and 4 are reference-only; do not include them in the daily feed loop.
+Canonical source list for all daily and weekly intelligence briefs. Two routines run against this:
+- **Daily routine** — covers all five daily categories, fires every day
+- **Weekly routine** — Niche Industry only, fires every Monday
 
-Back to [[CLAUDE]].
+Sources are embedded directly in the routine prompts. This file is the reference master. Back to [[CLAUDE]].
 
-## Tier 1 - Daily feed (high signal, fast)
+---
 
-| #   | Source              | What it covers                                                                                                    | URL / feed                                                                                   |
-| --- | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| 1   | Artificial Analysis | Model benchmarks, Intelligence Index rankings, launch analysis. Single best source for tracking where models rank | https://artificialanalysis.ai/articles                                                       |
-| 2   | TechCrunch AI       | Broad AI news, fast on launches and funding                                                                       | https://techcrunch.com/category/artificial-intelligence/ / RSS: https://techcrunch.com/feed/ |
-| 3   | arXiv cs.AI         | Primary research papers. Where things appear before the news writes about them                                    | http://export.arxiv.org/rss/cs.AI                                                            |
-| 4   | arXiv cs.CL         | Computational linguistics and LLM papers                                                                          | http://export.arxiv.org/rss/cs.CL                                                            |
-| 5   | arXiv cs.LG         | Machine learning papers                                                                                           | http://export.arxiv.org/rss/cs.LG                                                            |
-| 6   | SiliconANGLE AI     | Model releases and enterprise AI, often early. Had Kimi K2.6 day one                                              | https://siliconangle.com/category/ai/ / RSS: https://siliconangle.com/category/ai/feed       |
-| 7   | Stanford HAI        | Authoritative big-picture state-of-play. Poll weekly, not daily                                                   | https://hai.stanford.edu / RSS: https://hai.stanford.edu/rss.xml                             |
-| 8   | Dataconomy          | AI market and model coverage                                                                                      | https://dataconomy.com                                                                       |
-| 9   | TechTimes           | Tech/AI news, strong on geopolitics and market-reaction angle                                                     | https://www.techtimes.com                                                                    |
+## Category 1: Tech & AI
+**Folder:** `Intelligence Reports/Tech/YYYY-MM-DD.md`
 
-## Tier 2 - Vendor and primary sources (authoritative but biased toward own announcements)
-
-| # | Source | What it covers | URL |
+| Tier | Source | URL | Notes |
 |---|---|---|---|
-| 10 | OpenAI Blog | OpenAI's own releases and research. Authoritative for OpenAI | https://openai.com/news/ |
-| 11 | Futunn News | Markets-led coverage, strong on Chinese AI company and stock angle (Zhipu, DeepSeek funding) | https://news.futunn.com |
-| 12 | Yahoo Finance (AI) | Market reaction stories. Good for the money side, noisy otherwise | https://finance.yahoo.com |
+| T1 | TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/ | Fast on launches and funding |
+| T1 | SiliconANGLE AI | https://siliconangle.com/category/ai/feed | Model releases, enterprise AI, often early |
+| T1 | arXiv cs.AI | http://export.arxiv.org/rss/cs.AI | Primary research |
+| T1 | arXiv cs.MA | http://export.arxiv.org/rss/cs.MA | Multi-agent systems — agentic workflow watch |
+| T1 | LangChain Blog | https://blog.langchain.dev/rss/ | Agentic workflow watch: LangGraph, orchestration |
+| T2 | Artificial Analysis | https://artificialanalysis.ai/articles | Model benchmarks and Intelligence Index |
+| T2 | Anthropic News | https://www.anthropic.com/news | First-party model and product announcements |
+| T2 | OpenAI News | https://openai.com/news/ | First-party model and product announcements |
+| T2 | Latent Space | https://www.latent.space/ | Agentic engineering practice |
+| T2 | Interconnects | https://www.interconnects.ai/ | Independent LLM research analysis |
+| T2 | GitHub Trending | https://github.com/trending | New agent frameworks gaining stars |
 
-## Tier 3 - Specific facts, weaker as feeds
+---
 
-| # | Source | Notes |
-|---|---|---|
-| 13 | CodingFleet | Model-vs-model coding comparisons |
-| 14 | MindStudio | Builder-focused model comparison blog |
-| 15 | LushBinary | Open-weight model selection write-ups |
-| 16 | InnFactory | Consulting blog, model profiles |
-| 17 | KuCoin | Crypto exchange news. Carried one OpenRouter stat but not a quality AI source. Do not poll |
+## Category 2: UAE Market
+**Folder:** `Intelligence Reports/UAE/YYYY-MM-DD.md`
 
-## Tier 4 - Reference only, do not include in feed
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T1 | Arabian Business | https://www.arabianbusiness.com/rss | Best English-language UAE daily |
+| T1 | The National Business | https://www.thenationalnews.com/business/rss | UAE property and financial news, CBUAE |
+| T1 | Zawya | https://www.zawya.com/en/rss | Financial data, company news, regional markets |
+| T2 | Property Finder Insights | https://www.propertyfinder.ae/blog | Dubai transaction data, price trends |
+| T2 | Bayut Market Reports | https://www.bayut.com/blog/category/market-reports | Dubai rental and sales data by area |
+| T3 | CBUAE | https://www.centralbank.ae/en/news | Rate decisions, LTV regulation, banking circulars |
+| T3 | DLD Open Data | https://www.dubailand.gov.ae/en/open-data | Dubai Land Department transaction data |
 
-| # | Source | Notes |
-|---|---|---|
-| 18 | Wikipedia | Background reference (DeepSeek, Llama pages). Useful for lookups only |
-| 19 | Oracle Docs | Cloud docs. Reference only |
-| 20 | Blog aggregators | Small blog posts for individual fact confirmation only |
+---
 
-## Recommended additions (not yet in the feed, higher signal than several Tier 3/4 sources)
+## Category 3: SEO & Search
+**Folder:** `Intelligence Reports/SEO/YYYY-MM-DD.md`
 
-These did not surface in the initial research set but are better for ongoing monitoring:
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T1 | Search Engine Roundtable | https://www.seroundtable.com/feed | Best real-time algorithm tracking |
+| T1 | Search Engine Land | https://searchengineland.com/feed | Algorithm updates, SEO strategy |
+| T1 | Semrush Sensor | https://www.semrush.com/sensor/ | SERP volatility score — spikes = algorithm activity |
+| T2 | Google Search Central | https://developers.google.com/search/blog/rss.xml | Official crawling, indexing, ranking announcements |
+| T2 | Ahrefs Blog | https://ahrefs.com/blog/rss/ | Programmatic SEO and content strategy |
+| T2 | Marie Haynes | https://www.mariehaynes.com/blog/feed/ | Best independent E-E-A-T and HCU analysis |
+| T3 | Semrush Blog (GEO) | https://www.semrush.com/blog/feed/ | AI Overviews, GEO, LLM citation signals |
 
-- **The Information** - paid, but best lab-insider sourcing
-- **Interconnects (Nathan Lambert)** - Substack, best independent LLM research analysis
-- **Epoch AI** - training compute and scaling trends data
-- **Hugging Face blog / trending** - open-weight model releases, sometimes before arXiv
-- **LM Arena / LMSYS** - live model rankings by human preference
-- **Anthropic news** - https://www.anthropic.com/news
-- **DeepMind** - https://deepmind.google
-- **Meta AI Blog** - https://ai.meta.com/blog
+---
+
+## Category 4: Markets & Macro
+**Folder:** `Intelligence Reports/Markets/YYYY-MM-DD.md`
+
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T1 | Yahoo Finance Tech | https://finance.yahoo.com/rss/topstories | Market reaction, earnings, stock moves |
+| T1 | Bloomberg Technology | https://bloomberg.com/feeds/technology.rss | Funding, M&A, earnings, macro |
+| T1 | Futunn News | https://news.futunn.com | Chinese AI stock angle |
+| T2 | CNBC Tech | https://cnbc.com/id/19854910/device/rss/rss.html | Earnings, analyst calls |
+| T2 | Crunchbase News | https://news.crunchbase.com/feed/ | AI funding rounds and valuations |
+| T3 | Federal Reserve | https://www.federalreserve.gov/feeds/press_all.xml | Rate decisions and statements |
+
+---
+
+## Category 5: Gaming
+**Folder:** `Intelligence Reports/Gaming/YYYY-MM-DD.md`
+
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T1 | PC Gamer | https://www.pcgamer.com/rss/ | Releases, open-world and survival coverage |
+| T1 | IGN | https://feeds.ign.com/ign/games-all | Broad industry news and releases |
+| T2 | Rock Paper Shotgun | https://www.rockpapershotgun.com/feed | PC focus, survival and base-building |
+| T2 | CFX / FiveM Forum | https://forum.cfx.re | FiveM/QBox updates — NORTHLANDS tie-in |
+| T2 | r/FiveM | web search: r/FiveM latest this week | FiveM community news |
+| T2 | Rockstar Newswire | https://www.rockstargames.com/newswire | GTA/GTA VI news affecting FiveM ecosystem |
+| T3 | GamesIndustry.biz | https://www.gamesindustry.biz/feed | Industry business side, sales data |
+
+---
+
+## Category 6: Niche Industry (weekly, Mondays)
+**Folder:** `Intelligence Reports/Niche/YYYY-MM-DD.md`
+
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T2 | IPATA | https://ipata.org/news | Pet transport association trade news |
+| T2 | NAFD | https://nafd.org.uk/news/ | Funeral directors, repatriation news |
+| T2 | SIA | https://www.sia.homeoffice.gov.uk/home/news/ | Close protection licensing and regulation |
+| T2 | Coach & Bus Week | https://www.coachandbusweek.com/rss | Bus hire industry news |
+| T2 | PCT Online | https://www.pctonline.com/rss | US pest management, regulatory updates |
