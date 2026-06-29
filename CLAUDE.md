@@ -52,14 +52,60 @@ In priority order:
 
 At the end of each day, when I ask, summarise the day's work and plan tomorrow. Run the Daily Summary skill. Sources: today's claude.ai chats, the day's commits across the `ngindubai` repos (the record of what Claude Code shipped), and anything I paste. Update each project tracker and the projects board, write the daily note with done, decisions and open loops, and list tomorrow's top actions ranked by priority. Never invent progress: if it is not in a chat, a commit, or pasted, say so. This ritual tracks and plans only, it does not do the project work.
 
-## Intelligence Report (Daily)
+## Intelligence Reports (Daily + Weekly)
 
-When Gareth says "run the daily report" or "daily brief", execute the Intelligence Report skill:
+### Folder structure
 
-1. **Fetch stories from every source in the feed list** (see [[Intelligence Feed Sources]]). Top 5 stories per source. Use web_search and web_fetch. Do not skip sources. Flag any source that fails to load.
-2. **Write the report** to `Intelligence Reports/YYYY-MM-DD.md` using the Daily Intelligence Report Template (see [[Daily Report Template]]). The report must be at least a ten-minute read: substantive analysis, not headlines. Every story gets a source link. Every relevant vault note gets a [[wikilink]].
-3. **Commit to GitHub** via the git MCP. Tell Gareth after.
-4. **Do not summarise the sources in one sentence and call it done.** Analyse. Contextualise. Connect the dots across stories. Point to what it means for Orwell, the portfolio, or the agentic AI space.
+All reports live under `Intelligence Reports/`, one subfolder per category. Each run creates a new dated file inside the correct folder. Never overwrite an existing file.
+
+```
+Intelligence Reports/
+  Tech/YYYY-MM-DD.md
+  UAE/YYYY-MM-DD.md
+  SEO/YYYY-MM-DD.md
+  Markets/YYYY-MM-DD.md
+  Gaming/YYYY-MM-DD.md
+  Niche/YYYY-MM-DD.md
+```
+
+### Routine 1 — Daily (all five categories)
+
+Fires every day. Writes five separate files in one run: one per category folder, all committed in a single push with message `Daily briefs YYYY-MM-DD`.
+
+When Gareth says "run the daily report" or "daily brief", execute this routine:
+
+1. Read this CLAUDE.md and [[Daily Report Template]] first.
+2. Use web_fetch and web_search. For every source: fetch RSS feeds directly, fetch the article page for detail (snippets are not enough). If any source is blocked, paywalled, or returns no usable content, immediately web_search the story topic and pull from a source that returns cleanly. Note substitutions in the report. Never invent content. Never fabricate a story not in a fetch or search result.
+3. Produce all five sections. For each: analyse, link every story, wikilink every relevant vault note, carry open loops forward.
+4. Write five separate files, one per category folder. Use the Daily Report Template for each.
+5. Commit all five files in one push: `Daily briefs YYYY-MM-DD`.
+6. Tell Gareth after, one line per category.
+
+Sources for each category are embedded in the routine prompt (held outside this file). Reference list: [[Intelligence Feed Sources]].
+
+**Tech & AI** writes to `Intelligence Reports/Tech/YYYY-MM-DD.md`. Include a dedicated **Agentic Workflow Watch** section covering: framework releases (LangGraph, CrewAI, AutoGen, MetaGPT), orchestration patterns, MCP/ARD/A2A protocol news, agent-ops and eval tooling. This section feeds directly into [[Agent Org]] design decisions.
+
+**UAE Market** writes to `Intelligence Reports/UAE/YYYY-MM-DD.md`. Flag impact on the comparison network and distressed deals group.
+
+**SEO & Search** writes to `Intelligence Reports/SEO/YYYY-MM-DD.md`. Lead with any confirmed Google core/spam update or Semrush Sensor spike. Name the most exposed portfolio sites.
+
+**Markets & Macro** writes to `Intelligence Reports/Markets/YYYY-MM-DD.md`. Relevance lens: options/futures macro, GPU compute venture, AI stock moves.
+
+**Gaming** writes to `Intelligence Reports/Gaming/YYYY-MM-DD.md`. Flag anything affecting the NORTHLANDS FiveM server. Keep tighter than the work briefs.
+
+### Routine 2 — Weekly Niche Industry brief
+
+Fires every Monday. Writes one file: `Intelligence Reports/Niche/YYYY-MM-DD.md`. Commit message: `Niche brief YYYY-MM-DD`.
+
+One section per niche (pet transport, funeral repatriation, close protection, bus hire, pest control). Focus: regulation changes, airline/policy changes, seasonal demand signals. End each niche section with a clear `CONTENT CLUSTER TRIGGER: yes/no` line.
+
+### Report rules (apply to both routines)
+
+- Each report is a minimum ten-minute read. Substantive analysis, not headlines.
+- Every story gets a source link. Every relevant vault note gets a [[wikilink]].
+- End each report with an open-loops table carrying running threads forward.
+- New file each run. Never overwrite.
+- Do not analyse the sources in one sentence and call it done. Analyse. Contextualise. Connect the dots. Point to what it means for Orwell.
 
 ## Current projects
 
@@ -70,55 +116,54 @@ Glance view: [[Projects Board]]. Each project's detail is in `Projects/<Name>/<N
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `Inbox/` with a clear title and flag it.
 - **Filing rule.** A new idea to bounce around goes in `Research/`, one note per idea. Ongoing domains go in `Areas/`. Time-boxed work with one goal goes in `Projects/`. Durable knowledge goes in `Reference/`. Raw unsorted capture goes in `Inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `GitHub Library/`.
 - **Idea lifecycle.** A loose idea lives in `Research/` as one note, then graduates to `Projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[Research]].
-- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph (the graph shows the filename, not the title). Daily notes are dated `YYYY-MM-DD.md`. Intelligence Reports are dated `YYYY-MM-DD.md` and stored in `Intelligence Reports/`.
-- **Linking.** Use short `[[wikilinks]]` by basename, for example `[[Agent Org]]`, since names are unique. Each area note is the map for that domain. Link new notes back to their area note.
-- **Project status.** Each project's tracker is `Projects/<Name>/<Name>.md`, with status, stage and next_action in frontmatter. The glance view is [[Projects Board]], kept current by the daily ritual.
-- **Immutable sources.** `.raw/` holds original documents. Read them, never edit them. Generated notes link back to them.
-- **Retrieval order.** Read [[Hot]] first, then [[Dashboard]], then the relevant area note, then individual notes. Do not read the whole vault for a simple question.
+- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph. Daily notes are dated `YYYY-MM-DD.md`. Intelligence Reports are dated `YYYY-MM-DD.md` and stored in the correct category subfolder under `Intelligence Reports/`.
+- **Linking.** Use short `[[wikilinks]]` by basename. Each area note is the map for that domain. Link new notes back to their area note.
+- **Project status.** Each project's tracker is `Projects/<Name>/<Name>.md`. The glance view is [[Projects Board]], kept current by the daily ritual.
+- **Immutable sources.** `.raw/` holds original documents. Read them, never edit them.
+- **Retrieval order.** Read [[Hot]] first, then [[Dashboard]], then the relevant area note, then individual notes.
 - **Keep Hot current.** When you file something significant, add a line to [[Hot]] and trim it to about 500 words.
 - **Frontmatter.** Every note starts with title, tags, updated.
 - **One source of truth.** This repo is the source. Keep it text-only so mobile git stays fast.
-- **Repos live elsewhere.** Each area links to its live GitHub repos. The brain points at the code, it does not hold it.
+- **Repos live elsewhere.** Each area links to its live GitHub repos.
 
 ## Link-dump research workflow
 
 When Gareth drops one or more URLs into chat, this is the protocol:
 
-1. **Fetch each URL.** Read the full page content. If a URL will not fetch (e.g. X/Twitter blocks it), web-search for the content and **flag clearly if the source cannot be confirmed**. Do not build a confident note on an unverified source.
-2. **Create a research note.** File it in `Research/` using the Idea Template. The note must include: a plain-English summary of what the link is and why it matters; key takeaways (max 7); source URL and date captured; `status: raw` (or `exploring` once developed).
-3. **Cross-link to areas and projects.** Scan the vault map (the areas table in this file, [[Projects Board]], [[Research]]) and identify every area or project the content is relevant to. Add `[[wikilinks]]` under `related` in the note's frontmatter, and a backlink in the relevant area or project note.
-4. **File any git repos.** If the link is, or references, third-party git repos worth keeping, add them to `GitHub Library/`.
-5. **Update the indexes.** Add a row to the Topics table in [[Research]], and to the relevant `GitHub Library/` files if repos were added.
-6. **Tell me what was filed and what it was linked to.** One short message, no fluff.
+1. **Fetch each URL.** If blocked, web-search the content and flag clearly if unconfirmed.
+2. **Create a research note** in `Research/` using the Idea Template.
+3. **Cross-link to areas and projects.** Add `[[wikilinks]]` in frontmatter and backlinks in relevant notes.
+4. **File any git repos** in `GitHub Library/`.
+5. **Update the indexes.** Add a row to [[Research]] Topics table and relevant `GitHub Library/` files.
+6. **Tell me what was filed and what it was linked to.** One short message.
 
-If multiple URLs arrive at once, batch them: one note per URL, one commit per batch. Do not ask before fetching. Do not ask where to file. Decide and do it.
+Batch multiple URLs: one note per URL, one commit per batch.
 
 ## GitHub Library
 
-`GitHub Library/` is the external git library: every third-party repo we pull skills, tools, or reference code from, sorted by category. It is **not** Orwell's own code (that lives in the live repos linked from each area in the map below). Map note: [[GitHub Library]].
+`GitHub Library/` is the external git library. Map note: [[GitHub Library]].
 
-- **Structure.** One file per category, named after the category. A master list lives in the map note. Each repo is a row: name/link, what it is, what we'd pull, which Orwell area it feeds, and status (`using`, `evaluating`, `shelf`).
-- **Filing a git link.** When I drop a repo, pick the category, add a row to that category file and to the master list in the map note, set status, note any area it feeds. New category if none fits. One commit per batch, tell me after.
-- **Internal vs external.** Our own reusable workflows stay in `Skills/`. `GitHub Library/` is only for outside repos.
+- One file per category. Each repo is a row: name/link, what it is, what we'd pull, which area it feeds, status (`using`, `evaluating`, `shelf`).
+- When I drop a repo: pick the category, add rows, set status, note area. New category if none fits. One commit per batch.
 
 ## Skills
 
 Reusable workflows in `Skills/`:
 
-- File Inbox - sort a dump into the right place
-- Query - answer a question from the vault
-- Lint - vault health check
-- Save Conversation - file the current chat as a structured note
-- Daily Summary - end-of-day summary and tomorrow's plan
-- Weekly Review - what moved, what stalled, open loops
-- Grading Review - monthly re-grade of priorities
-- New Project - scaffold a new project (including promoting one from research)
-- Intelligence Report - daily AI news brief from the feed list (see [[Intelligence Feed Sources]])
+- File Inbox
+- Query
+- Lint
+- Save Conversation
+- Daily Summary
+- Weekly Review
+- Grading Review
+- New Project
+- Intelligence Report (daily + weekly)
 
 ## House style (law)
 
 - British English. No em dashes anywhere.
-- Fonts for any built document: Inter, with IBM Plex Mono for code and labels.
+- Fonts: Inter, IBM Plex Mono for code and labels.
 - Accent colour `#2752E6`. White backgrounds.
 - Banned words: delve, meticulous, comprehensive, leverage, seamless, robust, and the rest in [[House Style]].
 - Operational documents are tickable instruction manuals.
@@ -134,11 +179,11 @@ Reusable workflows in `Skills/`:
 | [[Products]] | Software and one game | jarvis (George), klientflo, klientflo-v2, Orwell-Corp, equityngin, northlands, daily-chex, wellreplied-site |
 | [[Ventures]] | Research bets | energy-claims-scraper, GPU compute, KDP, property opportunities |
 
-## The shelves (non-area sections)
+## The shelves
 
 | Section | What it is | Map note |
 |---|---|---|
 | Research | The idea shelf, pre-project | [[Research]] |
-| GitHub Library | External third-party repos we pull from | [[GitHub Library]] |
+| GitHub Library | External third-party repos | [[GitHub Library]] |
 | Reference | Durable knowledge and decision records | [[House Style]], [[Priority System]], [[Orwell Corp Stack Decisions]] |
-| Intelligence Reports | Daily AI news briefs | [[Intelligence Feed Sources]], [[Daily Report Template]] |
+| Intelligence Reports | Daily and weekly briefs, one subfolder per category | [[Intelligence Feed Sources]], [[Daily Report Template]] |
