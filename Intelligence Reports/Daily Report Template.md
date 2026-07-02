@@ -8,6 +8,8 @@ updated: 2026-06-26
 
 Template for the daily intelligence brief filed to `Intelligence Reports/YYYY-MM-DD.md`.
 
+**Granularity rule:** this is a daily report. Cover news from that specific calendar day only — not a roundup of the week. If a story is still developing from a prior day, treat it as an open loop update (short), not a re-told story. Every fetch/search should be scoped to "today," not "this week" or "recently."
+
 Back to [[Intelligence Feed Sources]].
 
 ---
@@ -68,4 +70,10 @@ updated: YYYY-MM-DD
 ## Open loops from yesterday
 
 [Any items from the previous report that have not yet resolved. Track running stories.]
+
+---
+
+## What this means for Orwell
+
+[Close every report here, not scattered through each story. 3-6 sentences giving the full picture: what actually matters for Orwell out of everything above, and what doesn't. Not every story needs to be relevant — say plainly if today was a quiet news day with nothing actionable. Do not force a business angle onto a story that doesn't have one.]
 ```

@@ -101,11 +101,12 @@ One section per niche (pet transport, funeral repatriation, close protection, bu
 
 ### Report rules (apply to both routines)
 
-- Each report is a minimum ten-minute read. Substantive analysis, not headlines.
+- Each report is roughly a ten-minute read. Substantive analysis, not headlines.
+- Cover news from that calendar day only, not a roundup of the week. These run daily — granular per-day updates, not weekly summaries. A still-developing story from a prior day gets a short open-loop update, not a re-told story.
 - Every story gets a source link. Every relevant vault note gets a [[wikilink]].
-- End each report with an open-loops table carrying running threads forward.
+- End each report with an open-loops table carrying running threads forward, then a closing "What this means for Orwell" section: the full picture in one place, not a forced business angle bolted onto every story. Say plainly when a day is quiet and nothing is actionable.
 - New file each run. Never overwrite.
-- Do not analyse the sources in one sentence and call it done. Analyse. Contextualise. Connect the dots. Point to what it means for Orwell.
+- Do not analyse the sources in one sentence and call it done. Analyse. Contextualise. Connect the dots.
 
 ## Current projects
 
