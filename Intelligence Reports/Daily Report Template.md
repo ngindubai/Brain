@@ -10,6 +10,12 @@ Template for the daily intelligence brief filed to `Intelligence Reports/YYYY-MM
 
 Back to [[Intelligence Feed Sources]].
 
+## Scope rules (as of 2026-07-02)
+
+- **Today only.** This is a daily routine. Cover news dated to the report's own date. Do not summarise the week's news or re-run a multi-day roundup. If a story is a direct continuation of yesterday's (e.g. an ongoing escalation), give the day's granular update — what changed today specifically — and carry the rest via Open loops rather than re-narrating the full backstory.
+- **Business impact goes at the end, once, in full.** Do not force every story to connect to Orwell. Cover the full picture of what happened. Close with one "Impact on Orwell" section that synthesises what today's news, taken together, means for the businesses — and says plainly when the honest answer is "limited direct impact today."
+- Each report is still a minimum ten-minute read.
+
 ---
 
 ```
@@ -62,6 +68,12 @@ updated: YYYY-MM-DD
 ## arXiv watch
 
 [Top 3-5 papers from cs.AI, cs.CL, cs.LG that are relevant to agentic AI, LLMs, or anything Orwell-adjacent. Title, brief plain-English abstract, link.]
+
+---
+
+## Impact on Orwell
+
+[One synthesis, written once, at the end. Full picture of the day's news taken together, not a story-by-story forced link. Name the businesses/ventures actually affected; say plainly if most of today's news has limited or no direct impact rather than stretching a connection.]
 
 ---
 
