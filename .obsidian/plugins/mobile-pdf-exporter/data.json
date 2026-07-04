@@ -1,0 +1,14 @@
+{
+  "language": "auto",
+  "outputFolder": "PDF Exports",
+  "marginMm": 7,
+  "includeTitle": true,
+  "shareAfterExport": true,
+  "openAfterExport": true,
+  "noteExportMode": "selectable",
+  "pagePreset": "mobile",
+  "pageOrientation": "portrait",
+  "colorMode": "color",
+  "contentScalePercent": 100,
+  "imageRasterScale": 1.5
+}
