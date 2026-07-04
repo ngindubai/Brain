@@ -1,7 +1,7 @@
 ---
 title: Projects Board
 tags: [projects, board, moc]
-updated: 2026-06-24
+updated: 2026-07-05
 ---
 
 # Projects Board
@@ -14,6 +14,7 @@ Every active project at a glance. Kept current by the daily ritual. Open a proje
 | [[Hermes Compare Reporting]] | P1 | Frontier: wire Hermes (B8), reports (B9) | Confirm warehouse deployed, run B8 |
 | [[SEO Indexing Fix]] | P1 | Active: site by site | RepatriationFuneral canonical and duplication repair |
 | [[Orwell Corp Office]] | P2 | Active: viewer polish, asset swap | Restore Blender, retry Poly Pizza one asset at a time |
+| [[Orwell Tours]] | P2 | Plan done, pre-build (Phase 0) | Run setup prompts P1 to P5, film one apartment |
 | [[Brain Ingestion]] | P2 | Active: agent-org batch done | Next batch on request |
 | [[NORTHLANDS]] | P3 (hobby) | Active: deploying fixes | FTP-upload flattened nl_deathdrop |
 

@@ -1,7 +1,7 @@
 ---
 title: GitHub Library
 tags: [github-library, repos, skills, tools, moc, master-list]
-updated: 2026-06-25
+updated: 2026-07-05
 ---
 
 # GitHub Library
@@ -26,6 +26,7 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Web design | Animation, scroll, 3D, frontend craft | [[Web Design]] |
 | Automation tools | Browser automation, scraping, pipelines | [[Automation Tools]] |
 | Creative AI tools | Image, video, 3D and audio generation engines | [[Creative AI Tools]] |
+| 3D reconstruction | Photogrammetry, Gaussian splatting, 3D web viewing | [[3D Reconstruction]] |
 | Reference directories | Curated use-case lists, tutorial collections, prior art | [[AI Agent Use Case Directory]] |
 
 ## Master list (all repos, by category)
@@ -83,7 +84,23 @@ The external git library. Every third-party repo we pull skills, tools, or refer
 | Repo / Product | What it is | Status |
 |---|---|---|
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Node-graph diffusion engine: image, video, 3D, audio. 118k stars, REST API, self-hostable, GPL-3.0 | evaluating |
-| [Meshy](https://www.meshy.ai) | AI 3D generation SaaS: text/image → textured 3D model in ~1 min. 10M users, REST API, ComfyUI plugin. Meshy 6 (Jan 2026) is production-ready | evaluating |
+| [Meshy](https://www.meshy.ai) | AI 3D generation SaaS: text/image to textured 3D model in ~1 min. 10M users, REST API, ComfyUI plugin. Meshy 6 (Jan 2026) is production-ready | evaluating |
+
+### 3D reconstruction
+
+Full detail and wiring in [[3D Reconstruction]] and [[Orwell Tours System Anatomy]]. Feeds [[Orwell Tours]].
+
+| Repo | What it is | Status |
+|---|---|---|
+| [playcanvas/engine](https://github.com/playcanvas/engine) | WebGL/WebGPU engine, built-in Gaussian splat rendering, MIT. The tour viewer | evaluating |
+| [playcanvas/react](https://github.com/playcanvas/react) | React components to embed the engine, MIT | evaluating |
+| [playcanvas/supersplat](https://github.com/playcanvas/supersplat) | Browser splat editor (crop, despeckle), MIT | evaluating |
+| [playcanvas/splat-transform](https://github.com/playcanvas/splat-transform) | CLI PLY to SOG compressor, MIT | evaluating |
+| [nerfstudio-project/nerfstudio](https://github.com/nerfstudio-project/nerfstudio) | Splatfacto trainer, Apache 2.0. Phase 2 | evaluating |
+| [nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat) | CUDA splatting library, Apache 2.0 | evaluating |
+| [colmap/colmap](https://github.com/colmap/colmap) | Camera poses from frames, BSD | evaluating |
+| [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg) | Frame extraction, LGPL build | evaluating |
+| [pierotofy/opensplat](https://github.com/pierotofy/opensplat) | AGPL, excluded from the product on licence | shelf |
 
 ### Reference directories
 
