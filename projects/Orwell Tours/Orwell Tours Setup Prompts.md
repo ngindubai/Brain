@@ -8,7 +8,7 @@ project: "[[Orwell Tours]]"
 
 # Orwell Tours Setup Prompts
 
-The manual browser tasks for [[Orwell Tours]]: accounts, keys, hosting, app stores. Each is a job Claude Code cannot do because it needs a human account, a payment card, or an identity check. Paste each prompt into the Claude browser extension on the named site. Work top to bottom; NOW cards block the build, LATER cards wait for their phase. Save each output into the ledger at the bottom. The rendered HTML version with copy buttons is in this project's `Deliverables/` folder. Companion notes: [[Orwell Tours Build Plan]], [[Orwell Tours System Anatomy]].
+The manual browser tasks for [[Orwell Tours]]: accounts, keys, hosting, app stores. Each is a job Claude Code cannot do because it needs a human account, a payment card, or an identity check. Paste each prompt into the Claude browser extension on the named site. Work top to bottom; NOW cards block the build, LATER cards wait for their phase. Save each output into the ledger at the bottom. A rendered HTML version of these prompts with copy buttons was also produced; it sits in the chat outputs and can be committed here on request. Companion notes: [[Orwell Tours Build Plan]], [[Orwell Tours System Anatomy]].
 
 Order of play: run P1 to P9 (P5 first, its D-U-N-S wait is the long pole), then open a Claude Code session with [[Orwell Tours Build Plan]] as the brief and the ledger in hand. Phase 0 needs only P1 to P4.
 
