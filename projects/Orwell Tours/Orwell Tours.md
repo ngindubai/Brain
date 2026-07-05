@@ -23,7 +23,7 @@ Ship an iOS and Android app that takes an agent from video walkaround to a share
 - [[Orwell Tours Build Plan]] is the full technical plan: phases, architecture, costs, licences. The standing brief for every Claude Code session on this project.
 - [[Orwell Tours System Anatomy]] explains every component in plain words, with its GitHub repo, where it runs, and how it wires to the others. Read this first for understanding.
 - [[Orwell Tours Setup Prompts]] holds the manual browser tasks (accounts, keys, hosting, app stores) and the master key ledger.
-- Rendered HTML versions of all three live in this project's `Deliverables/` folder.
+- These three notes are the canonical copy in the vault. The same content was also produced as rendered, idiot-proof HTML guides (visual versions with phone mockups and copy buttons); those files sit in the chat outputs and can be committed into a `Deliverables/` folder here on request.
 
 ## The stack in one line
 
@@ -49,7 +49,7 @@ Expo app writes video straight to Cloudflare R2, Render runs the API, job queue 
 Done:
 
 - Full technical blueprint researched and written (mobile version).
-- Three deliverables produced and filed here.
+- Three deliverable notes produced and filed here; rendered HTML versions produced and held in outputs.
 
 Frontier:
 
