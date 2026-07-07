@@ -1,7 +1,7 @@
 ---
 title: Hot
 tags: [hot, recent]
-updated: 2026-07-05
+updated: 2026-07-07
 ---
 
 # Hot
@@ -15,6 +15,7 @@ Recent context. Read this first, before the Dashboard, for fast grounding. Keep 
 
 ## Last filed
 
+- 2026-07-07: [[Operating Manual]] filed in Reference: the outgoing model's method handover for its replacement, eight procedures plus a five-question self-test to run on every answer.
 - 2026-07-05: Orwell Tours project created under [[Products]], three deliverables filed, new GitHub Library category [[3D Reconstruction]] added.
 - 2026-06-24: deep cleanup, every note renamed to a clean title, trading and visa-service removed.
 - GitHub Library link database in place: [[GitHub Library]].
