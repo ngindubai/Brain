@@ -15,7 +15,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 1: Tech & AI
-**Folder:** `Intelligence Reports/Tech/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/Tech/YYYY Week WW/Tech YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 2: UAE Market
-**Folder:** `Intelligence Reports/UAE/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/UAE/YYYY Week WW/UAE YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 3: SEO & Search
-**Folder:** `Intelligence Reports/SEO/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/SEO/YYYY Week WW/SEO YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|
@@ -64,7 +64,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 4: Markets & Macro
-**Folder:** `Intelligence Reports/Markets/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/Markets/YYYY Week WW/Markets YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|
@@ -78,7 +78,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 5: Gaming
-**Folder:** `Intelligence Reports/Gaming/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/Gaming/YYYY Week WW/Gaming YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|
@@ -93,7 +93,7 @@ Sources are embedded directly in the routine prompts. This file is the reference
 ---
 
 ## Category 6: Niche Industry (weekly, Mondays)
-**Folder:** `Intelligence Reports/Niche/YYYY-MM-DD.md`
+**Folder:** `Intelligence Reports/Niche/YYYY Week WW/Niche YYYY-MM-DD.md`
 
 | Tier | Source | URL | Notes |
 |---|---|---|---|

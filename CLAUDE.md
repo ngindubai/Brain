@@ -56,17 +56,20 @@ At the end of each day, when I ask, summarise the day's work and plan tomorrow. 
 
 ### Folder structure
 
-All reports live under `Intelligence Reports/`, one subfolder per category. Each run creates a new dated file inside the correct folder. Never overwrite an existing file.
+All reports live under `Intelligence Reports/`, one subfolder per category, grouped into ISO week folders (`YYYY Week WW`, Monday to Sunday, zero-padded week number from `date +"%G Week %V"`). Files are named subject first, then date, so the graph view reads cleanly. Each run creates a new dated file inside the correct week folder, creating the folder if it is the first report of that week. Never overwrite an existing file.
 
 ```
 Intelligence Reports/
-  Tech/YYYY-MM-DD.md
-  UAE/YYYY-MM-DD.md
-  SEO/YYYY-MM-DD.md
-  Markets/YYYY-MM-DD.md
-  Gaming/YYYY-MM-DD.md
-  Niche/YYYY-MM-DD.md
+  Tech/YYYY Week WW/Tech YYYY-MM-DD.md
+  UAE/YYYY Week WW/UAE YYYY-MM-DD.md
+  SEO/YYYY Week WW/SEO YYYY-MM-DD.md
+  Markets/YYYY Week WW/Markets YYYY-MM-DD.md
+  Gaming/YYYY Week WW/Gaming YYYY-MM-DD.md
+  Geopolitics/YYYY Week WW/Geopolitics YYYY-MM-DD.md
+  Niche/YYYY Week WW/Niche YYYY-MM-DD.md
 ```
+
+Example: `Intelligence Reports/Tech/2026 Week 29/Tech 2026-07-13.md`. On Mondays, yesterday's report lives in the previous week's folder.
 
 ### Routine 1 — Daily (all five categories)
 
@@ -83,19 +86,19 @@ When Gareth says "run the daily report" or "daily brief", execute this routine:
 
 Sources for each category are embedded in the routine prompt (held outside this file). Reference list: [[Intelligence Feed Sources]].
 
-**Tech & AI** writes to `Intelligence Reports/Tech/YYYY-MM-DD.md`. Include a dedicated **Agentic Workflow Watch** section covering: framework releases (LangGraph, CrewAI, AutoGen, MetaGPT), orchestration patterns, MCP/ARD/A2A protocol news, agent-ops and eval tooling. This section feeds directly into [[Agent Org]] design decisions.
+**Tech & AI** writes to `Intelligence Reports/Tech/YYYY Week WW/Tech YYYY-MM-DD.md`. Include a dedicated **Agentic Workflow Watch** section covering: framework releases (LangGraph, CrewAI, AutoGen, MetaGPT), orchestration patterns, MCP/ARD/A2A protocol news, agent-ops and eval tooling. This section feeds directly into [[Agent Org]] design decisions.
 
-**UAE Market** writes to `Intelligence Reports/UAE/YYYY-MM-DD.md`. Flag impact on the comparison network and distressed deals group.
+**UAE Market** writes to `Intelligence Reports/UAE/YYYY Week WW/UAE YYYY-MM-DD.md`. Flag impact on the comparison network and distressed deals group.
 
-**SEO & Search** writes to `Intelligence Reports/SEO/YYYY-MM-DD.md`. Lead with any confirmed Google core/spam update or Semrush Sensor spike. Name the most exposed portfolio sites.
+**SEO & Search** writes to `Intelligence Reports/SEO/YYYY Week WW/SEO YYYY-MM-DD.md`. Lead with any confirmed Google core/spam update or Semrush Sensor spike. Name the most exposed portfolio sites.
 
-**Markets & Macro** writes to `Intelligence Reports/Markets/YYYY-MM-DD.md`. Relevance lens: options/futures macro, GPU compute venture, AI stock moves.
+**Markets & Macro** writes to `Intelligence Reports/Markets/YYYY Week WW/Markets YYYY-MM-DD.md`. Relevance lens: options/futures macro, GPU compute venture, AI stock moves.
 
-**Gaming** writes to `Intelligence Reports/Gaming/YYYY-MM-DD.md`. Flag anything affecting the NORTHLANDS FiveM server. Keep tighter than the work briefs.
+**Gaming** writes to `Intelligence Reports/Gaming/YYYY Week WW/Gaming YYYY-MM-DD.md`. Flag anything affecting the NORTHLANDS FiveM server. Keep tighter than the work briefs.
 
 ### Routine 2 — Weekly Niche Industry brief
 
-Fires every Monday. Writes one file: `Intelligence Reports/Niche/YYYY-MM-DD.md`. Commit message: `Niche brief YYYY-MM-DD`.
+Fires every Monday. Writes one file: `Intelligence Reports/Niche/YYYY Week WW/Niche YYYY-MM-DD.md`. Commit message: `Niche brief YYYY-MM-DD`.
 
 One section per niche (pet transport, funeral repatriation, close protection, bus hire, pest control). Focus: regulation changes, airline/policy changes, seasonal demand signals. End each niche section with a clear `CONTENT CLUSTER TRIGGER: yes/no` line.
 
@@ -117,7 +120,7 @@ Glance view: [[Projects Board]]. Each project's detail is in `Projects/<Name>/<N
 - **Capture is chat-first.** When I tell you something, decide where it belongs and file it via GitHub. Do not make me name the folder. If it is genuinely ambiguous, drop it in `Inbox/` with a clear title and flag it.
 - **Filing rule.** A new idea to bounce around goes in `Research/`, one note per idea. Ongoing domains go in `Areas/`. Time-boxed work with one goal goes in `Projects/`. Durable knowledge goes in `Reference/`. Raw unsorted capture goes in `Inbox/`. Original source documents go in `.raw/`. External third-party git repos we pull skills or code from go in `GitHub Library/`.
 - **Idea lifecycle.** A loose idea lives in `Research/` as one note, then graduates to `Projects/` when it earns real work. When I promote one, copy it into a project, give it a tracker, and mark the research note promoted. See [[Research]].
-- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph. Daily notes are dated `YYYY-MM-DD.md`. Intelligence Reports are dated `YYYY-MM-DD.md` and stored in the correct category subfolder under `Intelligence Reports/`.
+- **Naming.** Title Case for notes and folders. Spaces are fine. No `_index`, no number prefixes, no underscores. Every filename should read as a clean label in the graph. Daily notes are dated `YYYY-MM-DD.md`. Intelligence Reports are named `<Category> YYYY-MM-DD.md` (subject first so the graph is readable) and stored in the correct `<Category>/YYYY Week WW` folder under `Intelligence Reports/`.
 - **Linking.** Use short `[[wikilinks]]` by basename. Each area note is the map for that domain. Link new notes back to their area note.
 - **Project status.** Each project's tracker is `Projects/<Name>/<Name>.md`. The glance view is [[Projects Board]], kept current by the daily ritual.
 - **Immutable sources.** `.raw/` holds original documents. Read them, never edit them.

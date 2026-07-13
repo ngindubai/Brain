@@ -6,7 +6,7 @@ updated: 2026-06-26
 
 # Daily Report Template
 
-Template for the daily intelligence brief filed to `Intelligence Reports/YYYY-MM-DD.md`.
+Template for the daily intelligence brief filed to `Intelligence Reports/<Category>/YYYY Week WW/<Category> YYYY-MM-DD.md` (ISO week folder, subject-first filename, e.g. `Tech/2026 Week 29/Tech 2026-07-13.md`).
 
 **Granularity rule:** this is a daily report. Cover news from that specific calendar day only — not a roundup of the week. If a story is still developing from a prior day, treat it as an open loop update (short), not a re-told story. Every fetch/search should be scoped to "today," not "this week" or "recently."
 
