@@ -102,3 +102,32 @@ Sources are embedded directly in the routine prompts. This file is the reference
 | T2 | SIA | https://www.sia.homeoffice.gov.uk/home/news/ | Close protection licensing and regulation |
 | T2 | Coach & Bus Week | https://www.coachandbusweek.com/rss | Bus hire industry news |
 | T2 | PCT Online | https://www.pctonline.com/rss | US pest management, regulatory updates |
+
+---
+
+## Category 7: Alternative News (daily)
+**Folder:** `Intelligence Reports/Alternative News/YYYY Week WW/Alternative News YYYY-MM-DD.md`
+
+Independent/investigative outlets on state and corporate accountability. Investigations, analysis and documents-based pieces only — no wire copy, podcasts, video-only posts, or link round-ups. Source health tracked in `Intelligence Reports/Alternative News/_Source Health.md`.
+
+| Tier | Source | URL | Notes |
+|---|---|---|---|
+| T1 | The Intercept | https://theintercept.com/ | Strongest source in the register |
+| T1 | ProPublica | https://www.propublica.org/ | Republishing licence, paraphrase anyway |
+| T1 | Declassified UK | https://www.declassifieduk.org/ | UK military, MI6, Foreign Office. Blocked (403) on all paths as of 18 July 2026 — under watch |
+| T1 | Drop Site News | https://www.dropsitenews.com/archive | Substack, JS-gated archive — discover via web search, fetch /p/ article pages directly |
+| T2 | The Dissenter | https://thedissenter.org/ | Press freedom, whistleblowers, Espionage Act |
+| T2 | Responsible Statecraft | https://responsiblestatecraft.org/ | Quincy Institute, foreign policy/military-industrial |
+| T2 | openDemocracy | https://www.opendemocracy.net/ | Homepage only, tag pages sort oddly |
+| T2 | Byline Times | https://bylinetimes.com/columns/special-investigation/ | Much of the paper is print-only |
+| T2 | OCCRP | https://www.occrp.org/en/ | Verified 18 July 2026, strong daily cadence |
+| T2 | Bellingcat | https://www.bellingcat.com/ | Verified 18 July 2026 |
+| T2 | Investigate Europe | https://www.investigate-europe.eu/ | Verified 18 July 2026, EU cross-border |
+| T2 | The Markup | https://www.themarkup.org/ | Verified 18 July 2026, tech/data accountability |
+| T3 | Type Investigations | https://www.typeinvestigations.org/ | Verified 18 July 2026, slow cadence |
+| T3 | Source Material | https://www.source-material.org/ | Verified 18 July 2026, slow cadence |
+| T3 | Disclose | https://disclose.ngo/en | Verified 18 July 2026 |
+| T3 | Lighthouse Reports | https://www.lighthousereports.com/ | Verified 18 July 2026, irregular/long-form |
+| T3 | The Ferret | https://theferret.scot/ | Verified 18 July 2026, Scotland-specific |
+| T3 | Correctiv | https://correctiv.org/en | Verified 18 July 2026, thin English output |
+| T3 | Michael West Media | https://www.michaelwest.com.au/ | Verified 18 July 2026, AU-specific, filter opinion vs investigation |
