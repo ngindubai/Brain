@@ -2,14 +2,14 @@
 title: SEO Portfolio
 area: SEO Portfolio
 tags: [area, seo, lead-gen]
-updated: 2026-06-24
+updated: 2026-07-22
 ---
 
 # SEO Portfolio
 
 Programmatic SEO lead-generation sites. Each ranks for long-tail service queries and sells the leads.
 
-Active project: [[SEO Indexing Fix]].
+Active project: [[SEO Indexing Fix]]. The build, monitoring, fixing and opportunity research frameworks for all sites live in [[Websites]].
 
 ## Sites and repos
 
