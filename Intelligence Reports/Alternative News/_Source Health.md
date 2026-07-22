@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 # Alternative News — Source Health
@@ -43,3 +43,4 @@ Back to [[Intelligence Feed Sources]].
 |---|---|---|---|
 | Declassified UK | 18 July 2026 | BLOCKED | 403 on homepage, /feed/, and /author/mark-curtis/. All three paths failed, not just one. First occurrence — recheck tomorrow. |
 | Declassified UK | 20 July 2026 | BLOCKED | 403 on homepage again. Second consecutive occurrence (no run happened 19 July to check). Per the routine's own rule, BLOCKED/DEAD twice running moves a source to Retired — this now meets that bar. Flagged for Gareth to decide: downgrade, extend grace period, or retire. Not actioned automatically since Declassified UK is a T1 source and the strongest UK military/intelligence accountability outlet in the register. |
+| Declassified UK | 22 July 2026 | BLOCKED | 403 on homepage and /feed/. Third consecutive occurrence, no run happened 21 July to check. Still unactioned since the 20 July flag. Needs a direct decision from Gareth, not another rollover. |
