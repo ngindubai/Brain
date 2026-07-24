@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 # Alternative News — Source Health
@@ -45,3 +45,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 20 July 2026 | BLOCKED | 403 on homepage again. Second consecutive occurrence (no run happened 19 July to check). Per the routine's own rule, BLOCKED/DEAD twice running moves a source to Retired — this now meets that bar. Flagged for Gareth to decide: downgrade, extend grace period, or retire. Not actioned automatically since Declassified UK is a T1 source and the strongest UK military/intelligence accountability outlet in the register. |
 | Declassified UK | 22 July 2026 | BLOCKED | 403 on homepage and /feed/. Third consecutive occurrence, no run happened 21 July to check. Still unactioned since the 20 July flag. Needs a direct decision from Gareth, not another rollover. |
 | Declassified UK | 23 July 2026 | BLOCKED | 403 on homepage and /feed/. Fourth consecutive occurrence. Flag has now stood unanswered since 20 July across three subsequent reports (22, 23 July). Recommend Gareth make a direct call next time he is in chat: extended grace period, downgrade to T2, or retire alongside Consortium News. Not actioned automatically. |
+| Declassified UK | 24 July 2026 | BLOCKED | 403 on homepage again, and 403 on a specific live article URL (the Met Police war-crimes-referral piece) surfaced via web search — first time a non-homepage, non-feed path was tested, and it failed too, ruling out "only the homepage/feed is blocked" as an explanation. Fifth consecutive occurrence. Content still reachable indirectly via third-party republication (Morning Star, Middle East Monitor cited Declassified UK as source for the 23 July Met Police story). Flag unanswered since 20 July across four subsequent reports (22, 23, 24 July). Needs a direct decision from Gareth. |
