@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-07-25
+updated: 2026-07-26
 ---
 
 # Alternative News — Source Health
@@ -47,3 +47,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 23 July 2026 | BLOCKED | 403 on homepage and /feed/. Fourth consecutive occurrence. Flag has now stood unanswered since 20 July across three subsequent reports (22, 23 July). Recommend Gareth make a direct call next time he is in chat: extended grace period, downgrade to T2, or retire alongside Consortium News. Not actioned automatically. |
 | Declassified UK | 24 July 2026 | BLOCKED | 403 on homepage again, and 403 on a specific live article URL (the Met Police war-crimes-referral piece) surfaced via web search — first time a non-homepage, non-feed path was tested, and it failed too, ruling out "only the homepage/feed is blocked" as an explanation. Fifth consecutive occurrence. Content still reachable indirectly via third-party republication (Morning Star, Middle East Monitor cited Declassified UK as source for the 23 July Met Police story). Flag unanswered since 20 July across four subsequent reports (22, 23, 24 July). Needs a direct decision from Gareth. |
 | Declassified UK | 25 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Sixth consecutive occurrence. No new content found even via search fallback beyond the already-logged 23 July Met Police story. Flag unanswered since 20 July across five subsequent reports (22, 23, 24, 25 July). Still needs a direct decision from Gareth: extended grace period, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 26 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Seventh consecutive occurrence. No new content found via search fallback. Flag unanswered since 20 July across six subsequent reports (22, 23, 24, 25, 26 July). Well past the routine's own three-day decision threshold — needs Gareth's direct call, not another rollover. |
