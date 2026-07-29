@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-07-27
+updated: 2026-07-29
 ---
 
 # Alternative News — Source Health
@@ -49,3 +49,5 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 25 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Sixth consecutive occurrence. No new content found even via search fallback beyond the already-logged 23 July Met Police story. Flag unanswered since 20 July across five subsequent reports (22, 23, 24, 25 July). Still needs a direct decision from Gareth: extended grace period, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 26 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Seventh consecutive occurrence. No new content found via search fallback. Flag unanswered since 20 July across six subsequent reports (22, 23, 24, 25, 26 July). Well past the routine's own three-day decision threshold — needs Gareth's direct call, not another rollover. |
 | Declassified UK | 27 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eighth consecutive occurrence. Flag unanswered since 20 July across seven subsequent reports (22, 23, 24, 25, 26, 27 July). Recommend Gareth make the call (extend, downgrade to T2, or retire alongside Consortium News) next time he is in chat; continuing to log without action is no longer adding information. |
+| Declassified UK | 28 July 2026 | BLOCKED | 403 on homepage, /feed/, and a specific article URL, all three paths failed again. Ninth consecutive occurrence. Flag unanswered since 20 July across eight subsequent reports. |
+| Declassified UK | 29 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Tenth consecutive occurrence, six weeks running with zero successful direct fetches. Flag unanswered since 20 July across nine subsequent reports. No further daily re-argument planned unless the failure mode changes; needs Gareth's direct decision. |
