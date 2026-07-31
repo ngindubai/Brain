@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 # Alternative News — Source Health
@@ -51,3 +51,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 27 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eighth consecutive occurrence. Flag unanswered since 20 July across seven subsequent reports (22, 23, 24, 25, 26, 27 July). Recommend Gareth make the call (extend, downgrade to T2, or retire alongside Consortium News) next time he is in chat; continuing to log without action is no longer adding information. |
 | Declassified UK | 28 July 2026 | BLOCKED | 403 on homepage, /feed/, and a specific article URL. Ninth consecutive occurrence. Flag unanswered since 20 July across eight subsequent reports. |
 | Declassified UK | 30 July 2026 | BLOCKED | 403 on homepage and a specific article URL (the RUK Advanced System revival piece, found via search but undated). No run occurred 29 July. Tenth blocked occurrence overall. Flag unanswered since 20 July across ten reports now, more than three times the routine's own decision threshold. Needs a direct call from Gareth: extend, downgrade to T2, or retire. |
+| Declassified UK | 31 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eleventh blocked occurrence overall. Flag unanswered since 20 July across eleven reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
