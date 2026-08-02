@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-01
+updated: 2026-08-02
 ---
 
 # Alternative News — Source Health
@@ -53,3 +53,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 30 July 2026 | BLOCKED | 403 on homepage and a specific article URL (the RUK Advanced System revival piece, found via search but undated). No run occurred 29 July. Tenth blocked occurrence overall. Flag unanswered since 20 July across ten reports now, more than three times the routine's own decision threshold. Needs a direct call from Gareth: extend, downgrade to T2, or retire. |
 | Declassified UK | 31 July 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eleventh blocked occurrence overall. Flag unanswered since 20 July across eleven reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 1 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twelfth blocked occurrence overall. A 30 July Sagamore ammunition-ship story was recovered only via raw search-engine snippets, no full-text source or republication anywhere, the weakest access method used yet — recorded in that day's report as a sourcing-quality flag. A second 30 July piece ("Chancellor wants military officer with him at Treasury") could not be recovered beyond its headline and was not written up. Flag unanswered since 20 July across twelve reports now. Needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 2 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Thirteenth consecutive blocked occurrence. No fallback story attempted today; two catch-ups from other outlets (Bellingcat, Drop Site) filled the report instead. Flag unanswered since 20 July across thirteen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
