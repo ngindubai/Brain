@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-07
+updated: 2026-08-08
 ---
 
 # Alternative News — Source Health
@@ -58,3 +58,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 4 August 2026 | BLOCKED | 403 on homepage and /feed/ again; author archive page (/author/anne-cadwallader/) also tested and failed, ruling out a homepage/feed-only block. Fifteenth consecutive blocked occurrence. Yesterday's ScheerPost workaround did not repeat: a 3 August Declassified UK piece (BBC Panorama/Hegarty 1972 censorship story, byline Anne Cadwallader) was reconstructed from search-engine snippets only, corroborated by an independent Irish News piece on the same document set three days earlier, but no full third-party republication was found. Flag unanswered since 20 July across fifteen reports now. Needs Gareth's direct call: extend, downgrade to T2, or retire. |
 | Declassified UK | 5 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Sixteenth consecutive blocked occurrence, four full weeks running. No new content found today by direct fetch or search fallback; nothing beyond the already-covered 3 August Panorama/Hegarty story turned up. Flag unanswered since 20 July across sixteen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 7 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Seventeenth consecutive blocked occurrence (no run occurred 6 August; see coverage-gap note in that day's report). A 5 August story (Charity Commission inquiry into eight UK charities over Israeli settlement funding) was recovered via a credited Palestine Uncensored republication plus independent corroboration from The National and Middle East Eye, the same workaround pattern as the 3 August ScheerPost find. Flag unanswered since 20 July across seventeen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire. |
+| Declassified UK | 8 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eighteenth consecutive blocked occurrence. No new content found today by direct fetch or search fallback beyond the already-covered 5 August charity-inquiry story; no republication workaround needed today since nothing new was found to reconstruct. Flag unanswered since 20 July across eighteen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
