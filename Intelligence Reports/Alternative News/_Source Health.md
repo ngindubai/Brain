@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-09
+updated: 2026-08-10
 ---
 
 # Alternative News — Source Health
@@ -60,3 +60,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 7 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Seventeenth consecutive blocked occurrence (no run occurred 6 August; see coverage-gap note in that day's report). A 5 August story (Charity Commission inquiry into eight UK charities over Israeli settlement funding) was recovered via a credited Palestine Uncensored republication plus independent corroboration from The National and Middle East Eye, the same workaround pattern as the 3 August ScheerPost find. Flag unanswered since 20 July across seventeen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire. |
 | Declassified UK | 8 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Eighteenth consecutive blocked occurrence. No new content found today by direct fetch or search fallback beyond the already-covered 5 August charity-inquiry story; no republication workaround needed today since nothing new was found to reconstruct. Flag unanswered since 20 July across eighteen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 9 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Nineteenth consecutive blocked occurrence. No new content found today by direct fetch or search fallback beyond already-covered material. A search result surfaced what appeared to be a fresh "MoD blacklisted Declassified as a hostile website" review story; checked directly against Morning Star, Middle East Eye, Press Gazette and the underlying GOV.UK document, all of which confirm it is the original December 2020 Tom Kelly review, not new content. Excluded from today's report and logged here so it is not mistakenly reused on a future run. Flag unanswered since 20 July across nineteen reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 10 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twentieth consecutive blocked occurrence, five weeks and two days running. No new content found today by direct fetch or search fallback. Flag unanswered since 20 July across twenty reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
