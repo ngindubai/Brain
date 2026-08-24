@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-21
+updated: 2026-08-24
 ---
 
 # Alternative News — Source Health
@@ -66,3 +66,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 16 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twenty-third consecutive blocked occurrence. No fallback needed today: it was a genuinely quiet day across the whole register, nothing published anywhere, so no reconstruction was attempted. Flag unanswered since 20 July across twenty-three reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 18 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode (no run occurred 17 August). Twenty-fourth consecutive blocked occurrence. A 17 August piece (Norton-Taylor on MI5/MI6 seeking exemption from the Hillsborough Law's transparency duty) was reconstructed from search-engine snippets and corroborating mainstream reporting (Washington Post, HuffPost UK) found via search, no republication route found. Flag unanswered since 20 July across twenty-four reports now, eight times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 21 August 2026 | BLOCKED | 403 on homepage again, no change in failure mode (no run occurred 19 or 20 August). Twenty-fifth consecutive blocked occurrence. No search fallback attempted today for Declassified UK specifically; the report's four stories came from other outlets. Flag unanswered since 20 July across twenty-five reports now, over eight times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 24 August 2026 | BLOCKED | 403 on homepage again, no change in failure mode (no run occurred 22 or 23 August). Twenty-sixth consecutive blocked occurrence. Two candidate article URLs surfaced via search fallback both also returned 403 on direct fetch, and both turned out on checking to be old material (June 2026 and October 2024 respectively), not new content, so neither was used. Flag unanswered since 20 July across twenty-six reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
