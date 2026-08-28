@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-27
+updated: 2026-08-28
 ---
 
 # Alternative News — Source Health
@@ -69,3 +69,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 25 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode (no run occurred 22, 23 or 24 August). Twenty-sixth consecutive blocked occurrence, five and a half weeks running. No search fallback attempted today for Declassified UK specifically; the report's eight stories, a three-day catch-up, came from other outlets. Flag unanswered since 20 July across twenty-six reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 26 August 2026 | BLOCKED | 403 on homepage again, no change in failure mode. Twenty-seventh consecutive blocked occurrence. A 25 August Mark Curtis piece (Britain trained the Russian army during the Chechnya war in 1995) was reconstructed from search-engine snippets, no republication route found. Flag unanswered since 20 July across twenty-seven reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 27 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twenty-eighth consecutive blocked occurrence, six weeks running since the first block on 18 July. No new content found today by direct fetch or search fallback beyond the already-covered 25 August Chechnya story. Flag unanswered since 20 July across twenty-eight reports now, more than nine times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 28 August 2026 | BLOCKED | 403 on homepage again, no change in failure mode. Twenty-ninth consecutive blocked occurrence, six weeks and one day running. Genuinely quiet day across the whole register, nothing published anywhere including here, so no search fallback was attempted. Flag unanswered since 20 July across twenty-nine reports now, nearly ten times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
