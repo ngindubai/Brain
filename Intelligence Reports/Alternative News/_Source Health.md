@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-29
+updated: 2026-08-30
 ---
 
 # Alternative News — Source Health
@@ -70,3 +70,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 26 August 2026 | BLOCKED | 403 on homepage again, no change in failure mode. Twenty-seventh consecutive blocked occurrence. A 25 August Mark Curtis piece (Britain trained the Russian army during the Chechnya war in 1995) was reconstructed from search-engine snippets, no republication route found. Flag unanswered since 20 July across twenty-seven reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 27 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twenty-eighth consecutive blocked occurrence, six weeks running since the first block on 18 July. No new content found today by direct fetch or search fallback beyond the already-covered 25 August Chechnya story. Flag unanswered since 20 July across twenty-eight reports now, more than nine times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 29 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive (/author/mark-curtis/) again, no change in failure mode (no run occurred 28 August). Twenty-ninth consecutive blocked occurrence, six weeks and two days running. No new content found today by direct fetch or search fallback. Flag unanswered since 20 July across twenty-nine reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 30 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive again, no change in failure mode. Thirtieth consecutive blocked occurrence, six weeks and one day since the first block on 18 July. No new content found today by direct fetch or search fallback. Also new today: Drop Site News's individual /p/ article page (previously the one reliable access route for that source) also returned HTTP 403 on a direct fetch, the first time that route has failed; logged here in case it recurs and needs its own entry. Flag on Declassified UK unanswered since 20 July across thirty reports now, ten times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
