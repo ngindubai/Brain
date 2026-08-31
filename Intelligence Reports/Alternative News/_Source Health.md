@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Alternative News — Source Health
@@ -71,3 +71,4 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 27 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Twenty-eighth consecutive blocked occurrence, six weeks running since the first block on 18 July. No new content found today by direct fetch or search fallback beyond the already-covered 25 August Chechnya story. Flag unanswered since 20 July across twenty-eight reports now, more than nine times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 29 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive (/author/mark-curtis/) again, no change in failure mode (no run occurred 28 August). Twenty-ninth consecutive blocked occurrence, six weeks and two days running. No new content found today by direct fetch or search fallback. Flag unanswered since 20 July across twenty-nine reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 30 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive again, no change in failure mode. Thirtieth consecutive blocked occurrence, six weeks and one day since the first block on 18 July. No new content found today by direct fetch or search fallback. Also new today: Drop Site News's individual /p/ article page (previously the one reliable access route for that source) also returned HTTP 403 on a direct fetch, the first time that route has failed; logged here in case it recurs and needs its own entry. Flag on Declassified UK unanswered since 20 July across thirty reports now, ten times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 31 August 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. Thirty-first consecutive blocked occurrence, six weeks and two days since the first block on 18 July. No fallback needed today: fetch ran early UTC before any 31 August content had posted anywhere in the register, so today's report closed out two 30 August stories instead. Flag unanswered since 20 July across thirty-one reports now, over ten times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
