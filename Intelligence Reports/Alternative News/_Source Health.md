@@ -1,7 +1,7 @@
 ---
 title: Alternative News - Source Health
 tags: [intelligence, alternative-news, source-health]
-updated: 2026-09-06
+updated: 2026-09-09
 ---
 
 # Alternative News — Source Health
@@ -72,6 +72,7 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 29 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive (/author/mark-curtis/) again, no change in failure mode (no run occurred 28 August). Twenty-ninth consecutive blocked occurrence, six weeks and two days running. No new content found today by direct fetch or search fallback. Flag unanswered since 20 July across twenty-nine reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 30 August 2026 | BLOCKED | 403 on homepage, /feed/ and the Mark Curtis author archive again, no change in failure mode. Thirtieth consecutive blocked occurrence, six weeks and one day since the first block on 18 July. No new content found today by direct fetch or search fallback. Also new today: Drop Site News's individual /p/ article page (previously the one reliable access route for that source) also returned HTTP 403 on a direct fetch, the first time that route has failed; logged here in case it recurs and needs its own entry. Flag on Declassified UK unanswered since 20 July across thirty reports now, ten times the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 | Declassified UK | 6 September 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. No run occurred between 31 August and 5 September (six-day gap), so no interim checks were logged; this is the thirty-first logged occurrence, and calendar time since the first block (18 July) is now seven weeks and two days. Drop Site News's /p/ route also failed again today (a 3 September Somalia-base story could not be fetched directly), repeating the 30 August failure rather than a one-off; if it fails a third time it should get its own standing row rather than riding on this one. Flag on Declassified UK unanswered since 20 July across thirty-one reports now. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
+| Declassified UK | 9 September 2026 | BLOCKED | 403 on homepage and /feed/ again, no change in failure mode. No run occurred on 7 or 8 September (two-day gap), so no interim checks were logged; this is the thirty-second logged occurrence, and calendar time since the first block (18 July) is now seven weeks and five days. Drop Site News's /p/ route was not retested today: no fresh 8 or 9 September candidate story existed to test it against (search surfaced only an April piece, out of scope), so that flag remains open but unconfirmed either way rather than a third consecutive failure. Flag on Declassified UK unanswered since 20 July across thirty-two reports now, well past the routine's own three-day decision threshold. Still needs Gareth's direct call: extend, downgrade to T2, or retire alongside Consortium News. |
 
 ## Monthly pending-source recheck — due
 
