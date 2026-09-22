@@ -47,6 +47,14 @@ Back to [[Intelligence Feed Sources]].
 | Declassified UK | 17 September 2026 | **OK — RESOLVED** | No run occurred 14, 15 or 16 September (three-day gap; see that day's report for the catch-up coverage). Today's fetch succeeded cleanly on the homepage, the /feed/ RSS endpoint, and two full individual article pages (16 and 15 September pieces), direct, no redirect, no partial block. This is the first successful direct access since the block began on 18 July, exactly nine weeks (63 days) and thirty-seven logged occurrences after the first 403. No explanation found for the recovery (no site notice, no change in URL structure). The standing "extend/downgrade/retire" question raised repeatedly since 20 July is now moot unless the block resumes; Gareth does not need to act on it. Recommend one more clean check tomorrow before fully standing down this watch line — a single recovery day could still be transient. |
 | Declassified UK | 19 September 2026 | **OK — WATCH STOOD DOWN** | No run occurred 18 September. Today's fetch loaded the homepage cleanly and directly, no block, no redirect. Second consecutive clean day following the 17 September recovery, as recommended before fully standing this line down. No new content since the 16 September piece already covered, so today's report carries no Declassified UK story, but access itself is no longer in question. This watch line is now closed; a future block would be logged as a fresh occurrence rather than a continuation of the 18 July–17 September run. |
 
+## Drop Site News archive access
+
+| Source | Date | Result | Notes |
+|---|---|---|---|
+| Drop Site News | 22 September 2026 | **OK — archive loads directly** | The /archive page, previously returning "This site requires JavaScript" on every prior check, loaded directly today with full headlines, authors and relative timestamps visible, no search workaround needed. First direct success logged. One clean day only, treat the search-based discovery method (per the routine's handling note) as still the reliable fallback until this repeats; if direct access holds for a few more runs it is worth downgrading that handling note from required to fallback-only. |
+
+---
+
 ## Monthly pending-source recheck — due
 
 The pending-verification list below was last tested on 18 July 2026. The routine calls for a monthly recheck; that is now over two months overdue as of this entry (19 September 2026). Not actioned in this run to avoid scope creep on a daily report; flagging here so it is not silently missed. Recommend running the recheck (one fetch per pending source, log OK/BLOCKED/DEAD/PAYWALL) next time there is headroom, or folding it into the next monthly review.
